@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import './Header.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Header.css";
 import { TbHelpSquareFilled } from "react-icons/tb";
-import { FaLanguage } from "react-icons/fa";
-import { FaGamepad } from "react-icons/fa";
-
+import { FaLanguage, FaGamepad } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 import { Dropdown, DropdownButton } from "react-bootstrap";
+
 const gameList = [
     "Rummy",
     "Poker",
@@ -16,11 +16,16 @@ const gameList = [
     "Spades",
     "Solitaire",
 ];
+
 export default function Header() {
+    const { t, i18n } = useTranslation();
     const [showDropdown, setShowDropdown] = useState(false);
+    const changeLanguage = (lang) => {
+        i18n.changeLanguage(lang);
+        setShowDropdown(false);
+    };
     return (
         <>
-
             <header id="top-header" className="fixed-top py-2">
                 <div className="container-fluid ">
                     <nav className="navbar navbar-expand-lg px-3">
@@ -46,7 +51,7 @@ export default function Header() {
                                 <li className="nav-item">
                                     <DropdownButton
                                         id="game-dropdown"
-                                        title={<span className="fw-bold text-dark ms-auto">Finunique Games</span>}
+                                        title={<span className="fw-bold text-dark ms-auto">{t('finuniqueGames')}</span>}
                                         variant="light"
                                         className="ms-3"
                                     >
@@ -62,10 +67,10 @@ export default function Header() {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link to={"/about"} className="nav-link text-dark">About</Link>
+                                    <Link to={"/about"} className="nav-link text-dark">{t('about')}</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link text-dark">FAQs</Link>
+                                    <Link className="nav-link text-dark">{t('faqs')} </Link>
                                 </li>
 
                                 {/* Right Side Section */}
@@ -78,22 +83,35 @@ export default function Header() {
                                     {/* Language Toggle Button */}
                                     <div className="position-relative">
                                         <button
-                                            id="toggle-icon"
-                                            className="btn LanguageBtn btn-light d-flex align-items-center border rounded px-3 py-2 cursor-pointer"
+                                            className="btn btn-light d-flex align-items-center border rounded px-3 py-2 cursor-pointer"
                                             onClick={() => setShowDropdown(!showDropdown)}
                                         >
-                                            <FaLanguage className='me-2' />
-                                            <span id="lang--text" className="fw-medium">Language</span>
+                                            <FaLanguage className="me-2" />
+                                            <span className="fw-medium">{t('language')}</span>
                                         </button>
 
                                         {showDropdown && (
-                                            <div className="position-absolute bg-dark text-white p-3 rounded shadow" style={{ top: "100%", right: 0, zIndex: 1050 }}>
-                                                {["English", "हिंदी", "ગુજરાતી", "मराठी", "বাংলা", "தமிழ்", "తెలుగు", "ಕನ್ನಡ"].map((lang, index) => (
-                                                    <div className="form-check" key={index}>
-                                                        <input className="form-check-input" type="radio" name="language" id={`lang-${index}`} />
-                                                        <label className="form-check-label" htmlFor={`lang-${index}`}>{lang}</label>
-                                                    </div>
-                                                ))}
+                                            <div
+                                                className="position-absolute bg-white p-3 rounded shadow"
+                                                style={{ top: "100%", right: 0, zIndex: 1050 }}
+                                            >
+                                                {["en", "hi", "gu", "mr", "bn", "ta", "te", "kn"].map(
+                                                    (lang, index) => (
+                                                        <div className="form-check" key={index}>
+                                                            <input
+                                                                className="form-check-input"
+                                                                type="radio"
+                                                                name="language"
+                                                                id={`lang-${lang}`}
+                                                                onChange={() => changeLanguage(lang)}
+                                                                checked={i18n.language === lang}
+                                                            />
+                                                            <label className="form-check-label" htmlFor={`lang-${lang}`}>
+                                                                {lang.toUpperCase()}
+                                                            </label>
+                                                        </div>
+                                                    )
+                                                )}
                                             </div>
                                         )}
                                     </div>
@@ -107,8 +125,9 @@ export default function Header() {
                             </ul>
                         </div>
                     </nav>
-                </div>
-            </header>
+                </div >
+
+            </header >
 
         </>
     )
