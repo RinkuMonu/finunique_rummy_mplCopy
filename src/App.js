@@ -10,6 +10,8 @@ import PrivacyPolicy from './component/Pages/PrivacyPolicy';
 import Cancel from './component/Pages/Cancel';
 import ContactSupport from './component/Pages/Contact/ContactSupport';
 import Blog from './component/Pages/Blog/Blog';
+import Login from './component/Pages/Login/Login';
+import Register from './component/Pages/Login/Register';
 
 function App() {
   const router = createBrowserRouter([
@@ -47,6 +49,15 @@ function App() {
         },
        
       ],
+     
+    },
+    {
+        path: "/login",
+        element: <Login />
+    },
+    {
+        path: "/register",
+        element: <Register />
     },
   ]);
   return (
