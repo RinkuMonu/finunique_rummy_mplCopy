@@ -9,12 +9,7 @@ import { Dropdown, DropdownButton } from "react-bootstrap";
 const gameList = [
     "Rummy",
     "Poker",
-    "Call Break",
-    "Win Patti",
-    "Gin Rummy",
-    "Draw4",
-    "Spades",
-    "Solitaire",
+    "Pool",
 ];
 
 export default function Header() {
@@ -56,11 +51,12 @@ export default function Header() {
                                         className="ms-3"
                                     >
                                         <div className="bg-white p-2 rounded me-2">
-                                            <FaGamepad size={24} className="text-dark" />
+                                            {/* <FaGamepad size={24} className="text-dark" /> */}
                                         </div>
                                         {gameList.map((game, index) => (
                                             <Dropdown.Item key={index} className="text-dark">
-                                                {game}
+                                            <FaGamepad size={24} className="text-dark me-2" />
+                                            {game}
                                             </Dropdown.Item>
                                         ))}
                                     </DropdownButton>

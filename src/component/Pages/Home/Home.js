@@ -647,7 +647,7 @@ export default function Home() {
 
                 </div>
                 <div className='coming-soon-img'>
-                    <img src='./images/COMMING SOON BANNER-01.jpg' className='img-fluid' />
+                    <img src='./images/COMMING SOON BANNER-01.jpg' className='img-fluid coming-soonImg'   />
                 </div>
             </section>
             <div className='container'>
@@ -1017,26 +1017,33 @@ export default function Home() {
 
                     </div>
                 </div>
-                <div className="flex justify-between font-bold w-[286px] rounded-[8px] gap-[12px] bg-[--sticky-qr-bg] px-[12px] py-[16px] text-center items-center fixed bottom-[100px] right-[49px]"
+                <div className="d-flex justify-content-between font-bold  text-center align-items-center fixed"
                     style={{
-                        border: '1px solid rgba(255, 255, 255, 0.00)',
-                        backdropFilter: 'blur(20px)',
-                        background: 'linear-gradient(285deg, rgba(255, 255, 255, 0.11) 5.47%, rgba(255, 255, 255, 0.00) 100.36%)',
-                        boxShadow: '0px 8px 10px 0px rgba(0, 0, 0, 0.20), 1px -1px 2px 2px rgba(255, 255, 255, 0.25) inset',
-                        zIndex: 99
+                        border: "1px solid rgba(255, 255, 255, 0.00)",
+                        backdropFilter: "blur(20px)",
+                        background: "linear-gradient(285deg, rgba(255, 255, 255, 0.11) 5.47%, rgba(255, 255, 255, 0.00) 100.36%)",
+                        boxShadow: "0px 8px 10px 0px rgba(0, 0, 0, 0.20), 1px -1px 2px 2px rgba(255, 255, 255, 0.25) inset",
+                        zIndex: 99,
+                        padding: "20px",
+                        borderRadius: "10px",
+                        color: "#000",
+                        position:"fixed",
+                        bottom: "100px", 
+                        right: "50px",
+                        padding:"20px",
                     }}>
                     <div>
                         <img
                             alt="QR to download MPL money app on desktop"
                             loading="lazy"
-                            width={513}
-                            height={316}
+                            width={100}
+                            height={100}
                             decoding="async"
-                            className="w-[87px] h-auto object-contain max-w-none rounded-[8px]"
-                            src="/_next/image?url=https%3A%2F%2Fcms-origin.mpl.live%2Fcms-latest-env%2Fimages%2FHome_QR_6cbcb0e065.webp&w=1080&q=75"
+                            className="rounded-sm img-fluid"
+                            src="./images/qr.jpg"
                         />
                     </div>
-                    <h2 className="text-[--how-to-install-bg-color] font-[500] text-[20px] text-center">Download MPL</h2>
+                    <h2 className="text-white downloadText text-center">Download <br />Finunique</h2>
                 </div>
             </div>
         </>
