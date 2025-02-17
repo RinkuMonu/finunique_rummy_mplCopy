@@ -26,8 +26,8 @@ export default function Header() {
     };
     return (
         <>
-            <header id="top-header" className="fixed-top py-2">
-                <div className="container-fluid ">
+            <header id="top-header" className="fixed-top">
+                <div className="container-fluid px-0">
                     <nav className="navbar navbar-expand-lg px-3">
                         <Link to="/" className="navbar-brand d-flex align-items-center text-decoration-none me-auto">
                             <img
@@ -48,7 +48,7 @@ export default function Header() {
 
                         <div className="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
                             <ul className="navbar-nav d-flex align-items-center gap-3 w-100">
-                                <li className="nav-item">
+                                <li className="nav-item ms-auto">
                                     <DropdownButton
                                         id="game-dropdown"
                                         title={<span className="fw-bold text-dark ms-auto">{t('finuniqueGames')}</span>}
@@ -75,7 +75,7 @@ export default function Header() {
 
                                 {/* Right Side Section */}
                                 <li className="nav-item d-flex gap-3">
-                                    <Link className="btn btn-outline-danger d-flex align-items-center">
+                                    <Link className=" d-flex align-items-center">
                                         <TbHelpSquareFilled className='me-2' />
                                         Help
                                     </Link>

@@ -9,9 +9,9 @@ a{
     padding-top: 58px;
 }
 #top-header nav a, .finuniqueDropdown button{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
-    color: #230046;
+    color: #230046 !important;
     font-weight: 600;
 }
 /* Blog */

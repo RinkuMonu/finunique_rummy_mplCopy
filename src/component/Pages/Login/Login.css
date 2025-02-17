@@ -1,0 +1,110 @@
+.login-section{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.login_page {
+    padding-top: 36px;
+    padding-bottom: 80px;
+    background-image: url(/public/images/3922432_17263.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .login_page .loginBox {
+    padding: 40px;
+    color: #fff;
+    background-color: #021645;
+    border-radius: 13px;
+    width: 50%;
+    position: relative;
+  }
+  
+  .login_page .loginBox .login_deatils {
+    margin-top: 20px;
+  }
+  
+  .login_page .loginBox .login_deatils input {
+    font-size: 14px;
+  }
+  
+  .login_page .loginBox .login_deatils label {
+    font-size: 14px;
+  }
+  
+  .login_page .loginBox .heading h1 {
+    font-size: 25px;
+  }
+  
+  .login_page .loginBox .submitBtn button {
+    color: #fff;
+    background-color: #cb0018;
+    padding: 5px 45px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 7px 25px rgba(234, 1, 29, 0.2);
+  }
+  
+  .login_page .loginBox .redirectregister {
+    margin-top: 10px;
+  }
+  
+  .login_page .loginBox .redirectregister h4 {
+    font-size: 14px;
+    position: absolute;
+    bottom: 12px;
+    right: 45px;
+  }
+  
+  .login_page .loginBox .redirectregister h4 a {
+    color: #fff;
+  }
+  
+  .register_page {
+    padding: 40px;
+    color: #fff;
+    background-color: #021645;
+    border-radius: 13px;
+    width: 70%;
+  }
+  
+  .register_page .heading h1 {
+    font-size: 25px;
+  }
+  
+  .register_page label {
+    font-size: 14px;
+  }
+  
+  .register_page .submitBtn .registerBtn {
+    color: #fff;
+    background-color: #cb0018;
+    padding: 17px 45px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 7px 25px rgba(234, 1, 29, 0.2);
+  }
+  
+  .loginBtn {
+    color: #fff;
+    background-color: rgba(203, 0, 24, 0);
+    margin-left: 10px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 7px 25px rgba(234, 1, 29, 0.2);
+  }
+  
+  .loginBtn:hover {
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 20px -4px 4px;
+  }
+  .login_page .loginBox {
+    padding: 40px;
+    color: #fff;
+    background-color: #021645;
+    border-radius: 13px;
+    width: 50%;
+    position: relative;
+}
