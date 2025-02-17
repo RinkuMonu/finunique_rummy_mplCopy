@@ -40,7 +40,7 @@ export default function About() {
               is reflected in our robust seven-layer security system, built upon
               rigorous reviews from six independent global security
               organizations: ISO/IEC 27001:2013 certification, and accreditation
-              from Indian and global organizations such as Arthur D Little,
+              from Indian and global organizations such as Arthur D' Little,
               SHIELD, All India Gaming Federation (AIGF), iTech Labs and
               RedHuntLabs.
             </p>
