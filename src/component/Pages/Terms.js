@@ -3,16 +3,16 @@ import React from 'react'
 export default function Terms() {
   return (
     <>
-     <div className='privacypolicy_section' style={{ backgroundImage: "url('./images/2553247_13411.jpg')", backgroundSize: "cover", backgroundPosition: "center", alignContent: "center", backgroundAttachment: "fixed", height: "50vh" }}>
+     <div className='privacypolicy_section' style={{ backgroundImage: "url('./images/2553247_13411.jpg')", backgroundSize: "cover", backgroundPosition: "center", alignContent: "center", backgroundAttachment: "fixed", padding: "116px 100px" }}>
         <div className='container'>
           <div className='row pt-3'>
             <div className='col-md-12 align-self-center'>
-              <p className='mb-3' style={{ fontSize: "12px", color: "#fff" }}>Last updated: Feb, 20, 2024</p>
+              <p className='mb-3' style={{ fontSize: "12px", color: "#000", fontWeight:"600", }}>Last updated: Feb, 20, 2024</p>
               <div className='heading'>
-                <h2 style={{ fontWeight: "300", color: "#fff" }}><span className='text-color'>Terms and Conditions</span></h2>
+                <h2 style={{ fontWeight: "300", color: "#000", fontWeight:"600", textShadow: "rgb(0,0,0) 20px -4px 4px", }}><span className='text-color'>Terms and Conditions</span></h2>
               </div>
               <div className='content'>
-                <p className='mt-1' style={{ fontSize: "14px", color: "#fff" }}>
+                <p className='mt-1' style={{ fontSize: "14px", color: "#000", fontWeight:"600", }}>
                   Welcome to [FinUnique Small Private Limited] (referred to as “we,” “us,” or “our”). Your Terma and Conditions is important to us. This Terma and Conditions Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website and use our services. By accessing or using our services, you agree to the collection and use of information in accordance with this policy.
                 </p>
               </div>

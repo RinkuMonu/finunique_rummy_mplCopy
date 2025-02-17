@@ -38,7 +38,82 @@ export default function About() {
                 </div>
 
             </div>
+            <div className="container mt-4">
+                  <div className="row">
+                    <div className="col-md-12">
+                      <div className="table-responsive">
+                        <table className="table table-bordered text-center rounded-3">
+                          <thead>
+                            <tr>
+                              <th>Recharge Cash</th>
+                              <th>Bonus</th>
+                              <th>Percentage</th>
+                              <th>Coins</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>100</td>
+                              <td>5</td>
+                              <td>5%</td>
+                              <td>105</td>
+                            </tr>
+                            <tr>
+                              <td>300 </td>
+                              <td>45</td>
+                              <td>15%</td>
+                              <td>345</td>
+                            </tr>
+                            <tr>
+                              <td>500 </td>
+                              <td>125</td>
+                              <td>25%</td>
+                              <td>625</td>
+                            </tr>
+                            <tr>
+                              <td>1000</td>
+                              <td>300</td>
+                              <td>30%</td>
+                              <td>1300</td>
+                            </tr>
+                            <tr>
+                              <td>3000</td>
+                              <td>1050</td>
+                              <td>35%</td>
+                              <td>4050</td>
+                            </tr>
+                            <tr>
+                              <td>3000</td>
+                              <td>1050</td>
+                              <td>35%</td>
+                              <td>4050</td>
+                            </tr>
+                            <tr>
+                              <td>5000</td>
+                              <td>1750</td>
+                              <td>35%</td>
+                              <td>6750</td>
+                            </tr>
+                            <tr>
+                              <td>10000</td>
+                              <td>4000</td>
+                              <td>40%</td>
+                              <td>14000</td>
+                            </tr>
+                            <tr>
+                              <td>20000</td>
+                              <td>8000</td>
+                              <td>40%</td>
+                              <td>28000</td>
+                            </tr>
+                          </tbody>
 
+                        </table>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
         </>
     )
 }

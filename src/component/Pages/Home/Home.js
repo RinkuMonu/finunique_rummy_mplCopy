@@ -523,7 +523,7 @@ export default function Home() {
                                         loading="lazy"
                                         decoding="async"
                                         className="img-fluid"
-                                        style={{ objectFit: "contain", width:"250px" }}
+                                        style={{ objectFit: "contain", width: "250px" }}
                                         src="./images/RUMMY F.png"
                                     />
                                 </div>
@@ -552,7 +552,7 @@ export default function Home() {
                                         height="67.903"
                                         decoding="async"
                                         className="img-fluid rounded"
-                                        style={{ objectFit: "contain", width:"250px" }}
+                                        style={{ objectFit: "contain", width: "250px" }}
                                         src="./images/POKER.png"
                                     />
                                 </div>
@@ -581,7 +581,7 @@ export default function Home() {
                                         height="67.903"
                                         decoding="async"
                                         className="img-fluid rounded"
-                                        style={{ objectFit: "contain", width:"250px" }}
+                                        style={{ objectFit: "contain", width: "250px" }}
                                         src="./images/POOL.png"
                                     />
                                 </div>
@@ -981,7 +981,7 @@ export default function Home() {
                                         Here are some strategies that you can use to win cash prizes and win money on Finunique:
 
                                         <b>Choosing the right games to win money:</b> Play the games that you are most familiar with and choose the game accordingly. On Finunique, you can play over 60+ real money games in various categories. There are casual games, card games, fantasy sports games a variety of games to choose from.
-                                       <b>Practice free games:</b>  Before playing money-winning games, you can practice free games on Finunique. Some games have the "Free to Play" option that you can try and perfect your gaming skills. Once you're confident to play real cash games, pick a preferred game to win cash prizes.
+                                        <b>Practice free games:</b>  Before playing money-winning games, you can practice free games on Finunique. Some games have the "Free to Play" option that you can try and perfect your gaming skills. Once you're confident to play real cash games, pick a preferred game to win cash prizes.
                                         <b>Look out for bonus offers:</b> Finunique provides a welcome bonus and other offers once you sign in. There are specific tournament offers in many categories where you can play games and win.
                                         <b>Begin with a fixed amount:</b> Set aside a fixed amount that you can use to play for every gaming session. Set a consistent bankroll strategy. Once you realize that you're reaching the limit, either take control of the game or quit. Investing more money in a game that you're losing might lead to more losses. Practice more on the app and try the next time. To win money, you can also try out the free games or practice at a smaller table. One of the most important aspects of real cash games is to learn to manage funds properly.
                                         <b>Start with a small stake: </b>Another tip to win money in real cash games is to begin your games with smaller stakes and then slowly raise them once you can play and win big. This is useful, especially in the case of card games. Playing at smaller stakes means smaller losses, and if things work out well, you can win too. You can master all the skill-based games on a low bankroll. Do not go for a budget that is beyond your limit just for a chance to win.
@@ -992,24 +992,24 @@ export default function Home() {
                             <div class="accordion-item my-3 border-top">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collaps10" aria-expanded="false" aria-controls="collaps10">
-                                    Can I transfer my in-game winnings to real cash online on Finunique?
+                                        Can I transfer my in-game winnings to real cash online on Finunique?
                                     </button>
                                 </h2>
                                 <div id="collaps10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                    Yes, you can transfer your in-game winnings to real cash very easily. The withdrawal process at Finunique is very simple. You can withdraw your winnings instantly using any of the payment methods, such as Paytm, Amazon Pay, UPI, or Bank Transfer.
+                                        Yes, you can transfer your in-game winnings to real cash very easily. The withdrawal process at Finunique is very simple. You can withdraw your winnings instantly using any of the payment methods, such as Paytm, Amazon Pay, UPI, or Bank Transfer.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item my-3 border-top">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collaps11" aria-expanded="false" aria-controls="collaps11">
-                                    How does Finunique ensure safety and fair play while playing online money games?
+                                        How does Finunique ensure safety and fair play while playing online money games?
                                     </button>
                                 </h2>
                                 <div id="collaps11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                    The Fairplay policy at Finunique ensures that all players have a fair and equal opportunity to win at online games. Finunique platform ensures that players are seated randomly, and the algorithm monitors any suspicious activity of collusion. Finunique also uses an SSL security system to protect the identity and personal information. Such details are fully encrypted to prevent security and data breaches.
+                                        The Fairplay policy at Finunique ensures that all players have a fair and equal opportunity to win at online games. Finunique platform ensures that players are seated randomly, and the algorithm monitors any suspicious activity of collusion. Finunique also uses an SSL security system to protect the identity and personal information. Such details are fully encrypted to prevent security and data breaches.
                                     </div>
                                 </div>
                             </div>
@@ -1017,7 +1017,27 @@ export default function Home() {
 
                     </div>
                 </div>
-
+                <div className="flex justify-between font-bold w-[286px] rounded-[8px] gap-[12px] bg-[--sticky-qr-bg] px-[12px] py-[16px] text-center items-center fixed bottom-[100px] right-[49px]"
+                    style={{
+                        border: '1px solid rgba(255, 255, 255, 0.00)',
+                        backdropFilter: 'blur(20px)',
+                        background: 'linear-gradient(285deg, rgba(255, 255, 255, 0.11) 5.47%, rgba(255, 255, 255, 0.00) 100.36%)',
+                        boxShadow: '0px 8px 10px 0px rgba(0, 0, 0, 0.20), 1px -1px 2px 2px rgba(255, 255, 255, 0.25) inset',
+                        zIndex: 99
+                    }}>
+                    <div>
+                        <img
+                            alt="QR to download MPL money app on desktop"
+                            loading="lazy"
+                            width={513}
+                            height={316}
+                            decoding="async"
+                            className="w-[87px] h-auto object-contain max-w-none rounded-[8px]"
+                            src="/_next/image?url=https%3A%2F%2Fcms-origin.mpl.live%2Fcms-latest-env%2Fimages%2FHome_QR_6cbcb0e065.webp&w=1080&q=75"
+                        />
+                    </div>
+                    <h2 className="text-[--how-to-install-bg-color] font-[500] text-[20px] text-center">Download MPL</h2>
+                </div>
             </div>
         </>
     )

@@ -18,7 +18,7 @@ export default function Footer() {
                                         <li><Link to={"/"}>Home</Link></li>
                                         <li><Link to='/'>About</Link></li>
                                         {/* <li><Link to='/'>Blog</Link></li> */}
-                                        <li><Link to='/terms'>Terma and Conditions</Link></li>
+                                        <li><Link to='/terms'>Terms and Conditions</Link></li>
                                         <li><Link to='/privacy'>Privacy Policy</Link></li>
                                         <li><Link to='/cancel'>
                                             Returns, Refunds & Cancellation</Link></li>
