@@ -12,12 +12,17 @@ import ContactSupport from './component/Pages/Contact/ContactSupport';
 import Blog from './component/Pages/Blog/Blog';
 import Login from './component/Pages/Login/Login';
 import Register from './component/Pages/Login/Register';
-
+import ScrollToTop from './ScrollToTop';
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <AppLayout />,
+     element: (
+      <>
+        <ScrollToTop /> {/* Include ScrollToTop here */}
+        <AppLayout />
+      </>
+    ),
       children: [
         {
           path: "/",
