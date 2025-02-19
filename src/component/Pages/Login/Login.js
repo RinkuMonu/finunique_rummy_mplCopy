@@ -19,7 +19,7 @@ export default function Login({ logincheck }) {
     try {
       const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/login ",
         {
-          type: 1, mobile: mobileNo
+          type: "1", mobile: mobileNo
         })
 
       alert('OTP Sent Successfully');
@@ -35,7 +35,7 @@ export default function Login({ logincheck }) {
 
     try {
       const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/verify-otp ",
-        { type: 1, mobile: mobileNo, otp: otp }
+        { type: "1", mobile: mobileNo, otp: otp }
       )
 
       console.log(response.data.message)

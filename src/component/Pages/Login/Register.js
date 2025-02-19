@@ -16,7 +16,7 @@ export default function Register() {
     try {
       const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/register",
         {
-          type: 1, mobile: mobileNo
+          type: "1", mobile: mobileNo
         })
       setshowOtp(true)
       alert('OTP Sent Successfully');
@@ -30,7 +30,7 @@ export default function Register() {
 
     try {
       const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/verify-otp ",
-        { type: 1, mobile: mobileNo, otp: otp }
+        { type: "1", mobile: mobileNo, otp: otp }
       )
       setshowName(true)
       setshowOtp(true)
