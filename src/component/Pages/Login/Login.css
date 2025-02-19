@@ -108,3 +108,11 @@
     width: 50%;
     position: relative;
 }
+.verifyOtp{
+  background-color: #cb0018;
+  padding: 6px 18px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}

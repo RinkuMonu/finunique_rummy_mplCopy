@@ -1,24 +1,48 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "./Header.css";
 import { TbHelpSquareFilled } from "react-icons/tb";
 import { FaLanguage, FaGamepad } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 
-const gameList = [
-    "Rummy",
-    "Poker",
-    "Pool",
-];
+const gameList = ["Rummy", "Poker", "Pool"];
 
 export default function Header() {
     const { t, i18n } = useTranslation();
     const [showDropdown, setShowDropdown] = useState(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [name , setName] = useState("")
+    const navigate = useNavigate();
+
+
+    useEffect(() => {
+        const token = localStorage.getItem("authToken");
+        const userData = localStorage.getItem("user");
+
+        if (token && userData) {
+            const user = JSON.parse(userData);  // ✅ Parse user data
+            setIsLoggedIn(true);
+            setName(user.username || "User");  // ✅ Default name if not found
+        } else {
+            setIsLoggedIn(false);
+            setName("");
+        }
+    }, []);
+
+    // ✅ Logout function
+    const handleLogout = () => {
+        localStorage.removeItem("authToken"); // Remove Token
+        localStorage.removeItem("user"); // Remove User Data
+        setIsLoggedIn(false);
+        navigate("/login"); // Redirect to login
+    };
+
     const changeLanguage = (lang) => {
         i18n.changeLanguage(lang);
         setShowDropdown(false);
     };
+
     return (
         <>
             <header id="top-header" className="fixed-top">
@@ -50,28 +74,25 @@ export default function Header() {
                                         variant="light"
                                         className="ms-3"
                                     >
-                                        <div className="bg-white p-2 rounded me-2">
-                                            {/* <FaGamepad size={24} className="text-dark" /> */}
-                                        </div>
                                         {gameList.map((game, index) => (
                                             <Dropdown.Item key={index} className="text-dark">
-                                            <FaGamepad size={24} className="text-dark me-2" />
-                                            {game}
+                                                <FaGamepad size={24} className="text-dark me-2" />
+                                                {game}
                                             </Dropdown.Item>
                                         ))}
                                     </DropdownButton>
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link to={"/about"} className="nav-link text-dark">{t('about')}</Link>
+                                    <Link to="/about" className="nav-link text-dark">{t('about')}</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link text-dark">{t('faqs')} </Link>
+                                    <Link to="/faqs" className="nav-link text-dark">{t('faqs')} </Link>
                                 </li>
 
                                 {/* Right Side Section */}
                                 <li className="nav-item d-flex gap-3">
-                                    <Link className=" d-flex align-items-center">
+                                    <Link className="d-flex align-items-center">
                                         <TbHelpSquareFilled className='me-2' />
                                         Help
                                     </Link>
@@ -112,19 +133,34 @@ export default function Header() {
                                         )}
                                     </div>
                                 </li>
-                                <li className='ms-auto'>
-                                    <Link to={"/login"}>Login</Link>
+
+                                {/* ✅ Login / Logout Button */}
+                                <li className="ms-auto">
+                                    {isLoggedIn ? (
+                                        <>
+                                        <div>Welcome,{name}</div>
+                                        <button onClick={handleLogout} className="btn btn-danger">
+                                            Logout
+                                        </button>
+                                        </>
+                                    ) : (
+                                        <Link to="/login" className="btn btn-primary">
+                                            Login
+                                        </Link>
+                                    )}
                                 </li>
-                                <li className=''>
-                                    <Link to={"/register"}>Register</Link>
-                                </li>
+                                {!isLoggedIn && (
+                                    <li>
+                                        <Link to="/register" className="btn btn-secondary">
+                                            Register
+                                        </Link>
+                                    </li>
+                                )}
                             </ul>
                         </div>
                     </nav>
-                </div >
-
-            </header >
-
+                </div>
+            </header>
         </>
-    )
+    );
 }

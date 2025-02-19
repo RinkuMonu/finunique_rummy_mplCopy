@@ -12,16 +12,24 @@ import ContactSupport from './component/Pages/Contact/ContactSupport';
 import Blog from './component/Pages/Blog/Blog';
 import Login from './component/Pages/Login/Login';
 import Register from './component/Pages/Login/Register';
+import { useState } from 'react';
+import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 
 function App() {
+  const[logincheck,setlogin]=useState(false)
   const router = createBrowserRouter([
+
     {
       path: "/",
-      element: <AppLayout />,
+      element: (
+        <>
+          <ScrollToTop /> {/* ScrollToTop ko Router ke andar rakhna zaroori hai */}
+          <AppLayout />
+        </>),
       children: [
         {
           path: "/",
-          element: <Home />,
+          element: <Home setlogin={logincheck} />,
         },
         {
           path: "/about",
@@ -53,7 +61,7 @@ function App() {
     },
     {
         path: "/login",
-        element: <Login />
+        element: <Login  setlogin={logincheck}/>
     },
     {
         path: "/register",
@@ -63,6 +71,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      
     </>
   );
 }

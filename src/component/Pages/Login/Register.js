@@ -1,9 +1,50 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default function Register() {
+
+  const [showOtp, setshowOtp] = useState(true)
+  const [showname, setshowName] = useState(true)
+  const [mobileNo, setmobileNo] = useState("")
+  const [otp, setOtp] = useState("")
+  const [sendotpShow, setsendotpShow] = useState(false)
+  const [otpverify, setotpVerify] = useState(false)
+
+  const sendotp = async (e) => {
+    e.preventDefault()
+    try {
+      const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/register",
+        {
+          type: 1, mobile: mobileNo
+        })
+      setshowOtp(true)
+      alert('OTP Sent Successfully');
+      setsendotpShow(true)
+    } catch (error) {
+      alert('Error sending OTP', error)
+    }
+  }
+  const verifyotp = async (e) => {
+    e.preventDefault()
+
+    try {
+      const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/verify-otp ",
+        { type: 1, mobile: mobileNo, otp: otp }
+      )
+      setshowName(true)
+      setshowOtp(true)
+      alert('OTP Verify Successfully');
+      setotpVerify(true)
+      
+    } catch (error) {
+      alert('Error OTP Verify', error)
+    }
+  }
+
   return (
     <>
-    <div className="login_page">
+      <div className="login_page">
         <div className="container">
           <div className="row justify-content-center">
             <div className="register_page">
@@ -13,78 +54,108 @@ export default function Register() {
               <div className="register_form">
                 <form action="">
                   <div className="row">
-                  <div className="col-md-6">
+                    <div className="col-md-6">
                       <div className="mb-3">
-                      <label className="form-label">Mobile</label>
+                        <label className="form-label">Mobile</label>
                         <input
                           type="number"
                           className="form-control"
                           id="number"
                           placeholder="Enter Number"
+                          value={mobileNo}
+                          onChange={(e) => setmobileNo(e.target.value)}
                         />
                       </div>
+
+                      {sendotpShow ?
+                        "Otp Sent SuccessFul" :
+                        <button onClick={sendotp}  className='verifyOtp'>Send Otp</button>
+                      }
+
                     </div>
-                  <div className="col-md-6">
-                      <div className="mb-3">
-                      <label className="form-label">OTP</label>
-                        <input
-                          type="number"
-                          className="form-control"
-                          id="number"
-                          placeholder="Enter Otp"
-                        />
+
+                    {showOtp &&
+                      <div className="col-md-6">
+                        <div className="mb-3">
+                          <label className="form-label">OTP</label>
+                          <input
+                            type="number"
+                            className="form-control"
+                            id="number"
+                            placeholder="Enter Otp"
+                            value={otp}
+                            onChange={(e) => setOtp(e.target.value)}
+                          />
+                        </div>
+                        {otpverify ?
+                        "Otp Verification SuccessFul" :
+                        <button onClick={verifyotp} className='verifyOtp'>Verify Otp</button>
+                      }
+                       
+
                       </div>
+                    }
+
+                    {showname &&
+                      <>
+
+                        <div className="col-md-6">
+                          <div className="mb-3">
+                            <label className="form-label">First Name</label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              id="firstname"
+                              placeholder="Enter Name"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="mb-3">
+                            <label className="form-label">Last Name</label>
+                            <input
+                              type="text"
+                              className="form-control"
+                              id="firstname"
+                              placeholder="Enter Name"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="mb-3">
+                            <label className="form-label">Email</label>
+                            <input
+                              type="Email"
+                              className="form-control"
+                              id="Email"
+                              placeholder="Enter Mail"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="mb-3">
+                            <label className="form-label">Password</label>
+                            <input
+                              type="password"
+                              className="form-control"
+                              id="password"
+                              placeholder="Enter Password"
+                            />
+                          </div>
+                        </div>
+
+
+
+                        <div className="col-md-12">
+
+                          <div className="submitBtn mt-3">
+                            <button className="registerBtn">Register Now</button>
+                          </div>
+                          <div className="redirectregister">
+                        <h4>Already Have a Account? <Link to={'/Login'}>Log In</Link></h4>
                     </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label className="form-label">First Name</label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="firstname"
-                          placeholder="Enter Name"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                        <label className="form-label">Last Name</label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="firstname"
-                          placeholder="Enter Name"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                      <label className="form-label">Email</label>
-                        <input
-                          type="Email"
-                          className="form-control"
-                          id="Email"
-                          placeholder="Enter Mail"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="mb-3">
-                      <label className="form-label">Password</label>
-                        <input
-                          type="password"
-                          className="form-control"
-                          id="password"
-                          placeholder="Enter Password"
-                        />
-                      </div>
-                    </div>
-                   
-                    <div className="col-md-12">
-                    <div className="submitBtn mt-3">
-                        <button className="registerBtn">Register Now</button>
-                    </div>
-                    </div>
+                        </div>
+                      </>}
                   </div>
                 </form>
               </div>
@@ -92,6 +163,6 @@ export default function Register() {
           </div>
         </div>
       </div>
-      </>
+    </>
   )
 }

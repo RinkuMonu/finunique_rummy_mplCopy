@@ -16,7 +16,7 @@ export default function Footer() {
                                     </div>
                                     <ul>
                                         <li><Link to={"/"}>Home</Link></li>
-                                        <li><Link to='/'>About</Link></li>
+                                        <li><Link to='/about'>About</Link></li>
                                         {/* <li><Link to='/'>Blog</Link></li> */}
                                         <li><Link to='/terms'>Terms and Conditions</Link></li>
                                         <li><Link to='/privacy'>Privacy Policy</Link></li>
@@ -40,7 +40,7 @@ export default function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div class="secondary-footer border-top mx-3 pt-3"><div class="container"><div class="copyright"><div class="row align-items-center"><div class="col-md-12 text-center">© 2025 @Finuniquerummy Small Private Limited. All rights reserved.</div></div></div></div></div>
+                        <div class="secondary-footer border-top mx-3 pt-3"><div class="container"><div class="copyright"><div class="row align-items-center"><div class="col-md-12 text-center">© 2025 @Finunique Small Private Limited. All rights reserved.</div></div></div></div></div>
                     </div>
                 </div>
             </footer>
