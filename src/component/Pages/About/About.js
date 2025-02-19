@@ -70,51 +70,51 @@ export default function About() {
             </h4>
             <p>• Regular Association point - Our straightforward dashboard simplifies it for players to find and partake in games without any problem.</p>
             <p>• Reliable Trades - We give secure and quick portion decisions for stores and withdrawals, ensuring a smooth money-related experience. </p>
-  
+
             <p>• the entire day, consistently Client care - Our serious assistance bunch is constantly open to assist clients with any requests, ensuring a steady and beguiling gaming experience.</p>
             <p>• Cross-Stage Receptiveness - Whether on flexible or workspace, Finunique conveys a consistent and incredible gaming experience across contraptions.</p>
-            <h4>Connecting with the Overall Gaming Social class
+            <h4>Connecting with the Overall Gaming Social class.
             </h4>
             <p>Past gaming, Finunique is centered around empowering a dynamic and able gaming neighborhood. We have confidence in progressing reliable gaming penchants and showing clients endorsed techniques for safeguarded and pleasing intuitiveness. Our establishment gives instruments and resources that help players manage their gaming time, put down specific limits, and keep a sensible method for managing gaming.
-We moreover attract with our neighborhood exciting events, rivalries, and instinctive substance, making Finunique a gaming stage as well as a middle point for gaming fans to connect and create.  
+              We moreover attract with our neighborhood exciting events, rivalries, and instinctive substance, making Finunique a gaming stage as well as a middle point for gaming fans to connect and create.
 
-</p>
-            
+            </p>
+
             <h4>The Destiny of Finunique
             </h4>
             <p>As we look forward, Finunique stays focused on stretching the boundaries of improvement in capacity-based gaming. We are consistently researching new developments, developing our game commitments, and overhauling our security endeavors to stay ready.
-Our vision is to make aptitude-based gaming more exhaustive, associating with, and compensating for players across the globe. With continued interest in development, security, and client experience, we hope to rename the possible destiny of electronic gaming and solidify what is going on as the world's most trusted ability gaming stage.
-</p>
-          <h4>Join the Finunique Upset
-          </h4>
-          <p>Finunique is something past a gaming stage — it's a neighborhood capacity meet an entryway, and players change about Finunique</p>
-          <h4> Ability to evolve Based Gaming All over the Planet
-          </h4>
-          <p> Finunique stays an overall pioneer in the domain of mastery-based gaming, offering an unequaled stage where clients can partake in both free and paid challenges. With a rich and different game portfolio, including sports, puzzles, nice, and table games, Finunique ensures that there is something for each kind of player. Our primary objective is to interface with,
-serious and compensating experience for gaming lovers all around the planet.
-With in excess of 120 million enlisted clients navigating across India, the US, and Nigeria, Finunique has set its circumstance as one of the greatest and most trusted in skill gaming stages.
-</p>
-         <h4>An Alternate Gaming Experience for Everyone
-         </h4>
-         <p>At Finunique, we acknowledge that mastery-based gaming should be accessible, unique, and enchanting. Our broad game library ensures that players
-with various establishments and interests can follow their mastery inside our
-establishment. Whether it's endeavoring the principal contention in table games,
-partaking in the difficulties of speedy games, addressing complex riddles,
-or then again acquiring energy from easygoing gaming experiences, Finunique offers different interfacing choices Our establishment is determinedly created by introducing new and imaginative games that deal with different mastery levels. This
-inclusivity ensures that both accommodating players and serious gamers can follow
-games that suit their tendencies and scopes of capacities.
-</p>
+              Our vision is to make aptitude-based gaming more exhaustive, associating with, and compensating for players across the globe. With continued interest in development, security, and client experience, we hope to rename the possible destiny of electronic gaming and solidify what is going on as the world's most trusted ability gaming stage.
+            </p>
+            <h4>Join the Finunique Upset
+            </h4>
+            <p>Finunique is something past a gaming stage — it's a neighborhood capacity meet an entryway, and players change about Finunique</p>
+            <h4> Ability to evolve Based Gaming All over the Planet
+            </h4>
+            <p> Finunique stays an overall pioneer in the domain of mastery-based gaming, offering an unequaled stage where clients can partake in both free and paid challenges. With a rich and different game portfolio, including sports, puzzles, nice, and table games, Finunique ensures that there is something for each kind of player. Our primary objective is to interface with,
+              serious and compensating experience for gaming lovers all around the planet.
+              With in excess of 120 million enlisted clients navigating across India, the US, and Nigeria, Finunique has set its circumstance as one of the greatest and most trusted in skill gaming stages.
+            </p>
+            <h4>An Alternate Gaming Experience for Everyone
+            </h4>
+            <p>At Finunique, we acknowledge that mastery-based gaming should be accessible, unique, and enchanting. Our broad game library ensures that players
+              with various establishments and interests can follow their mastery inside our
+              establishment. Whether it's endeavoring the principal contention in table games,
+              partaking in the difficulties of speedy games, addressing complex riddles,
+              or then again acquiring energy from easygoing gaming experiences, Finunique offers different interfacing choices Our establishment is determinedly created by introducing new and imaginative games that deal with different mastery levels. This
+              inclusivity ensures that both accommodating players and serious gamers can follow
+              games that suit their tendencies and scopes of capacities.
+            </p>
 
-      <h4>Trusted by Millions, Constrained by Significance
-      </h4>
-      <p>Since our start in 2018, Finunique has focused on conveying a tip-top gaming experience maintained by strong advancement, fair competition, and top-notch security. Our player-first approach has engaged us to</p>
-      <p>manufacture a wide neighborhood of devoted gamers who trust our establishment for
-secured and clear gaming.
-</p>
-     <p>Our thriving is reflected in the sheer volume of contests we have. Reliably, Finunique controls a large number of challenges, allowing clients to experience the fervor of skill together in gaming concerning an overall scir energy into compensations. Whether you're a casual player looking for redirection or a merciless gamer searching for the fervor of high-stakes contests, Finunique has something for you. </p>
-     <p>Join a considerable number of players, generally speaking, and experience a more significant level of mastery-based gaming with Finunique. Fight, win, and be significant for a change that is shaping.</p>
-            
-            
+            <h4>Trusted by Millions, Constrained by Significance
+            </h4>
+            <p>Since our start in 2018, Finunique has focused on conveying a tip-top gaming experience maintained by strong advancement, fair competition, and top-notch security. Our player-first approach has engaged us to</p>
+            <p>manufacture a wide neighborhood of devoted gamers who trust our establishment for
+              secured and clear gaming.
+            </p>
+            <p>Our thriving is reflected in the sheer volume of contests we have. Reliably, Finunique controls a large number of challenges, allowing clients to experience the fervor of skill together in gaming concerning an overall scir energy into compensations. Whether you're a casual player looking for redirection or a merciless gamer searching for the fervor of high-stakes contests, Finunique has something for you. </p>
+            <p>Join a considerable number of players, generally speaking, and experience a more significant level of mastery-based gaming with Finunique. Fight, win, and be significant for a change that is shaping.</p>
+
+
 
 
 
