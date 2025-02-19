@@ -17,7 +17,7 @@ export default function Login({ logincheck }) {
     e.preventDefault()
 
     try {
-      const response = await axios.post("https://13.203.138.66:3000/api/v1/auth/login ",
+      const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/login ",
         {
           type: "1", mobile: mobileNo
         })
@@ -34,7 +34,7 @@ export default function Login({ logincheck }) {
     e.preventDefault()
 
     try {
-      const response = await axios.post("https://13.203.138.66:3000/api/v1/auth/verify-otp ",
+      const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/verify-otp ",
         { type: "1", mobile: mobileNo, otp: otp }
       )
 
