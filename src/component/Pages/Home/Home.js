@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
 
@@ -529,7 +530,7 @@ export default function Home() {
                                 </div>
                                 <p className="mb-0 fs-5 text-secondary">
                                     <strong className="text-danger">
-                                        <a href="#" className="text-decoration-none">Rummy</a>
+                                        <Link className="text-decoration-none">Rummy</Link>
                                     </strong>
                                     <span>
                                         {" "}
@@ -559,7 +560,7 @@ export default function Home() {
                                 </div>
                                 <p className="mb-0 fs-5 text-secondary">
                                     <strong className="text-danger">
-                                        <a href="#" className="text-decoration-none">Poker</a>
+                                        <Link className="text-decoration-none">Poker</Link>
                                     </strong>
                                     <span>
                                         {" "}
@@ -589,7 +590,7 @@ export default function Home() {
                                 </div>
                                 <p className="mb-0 fs-5 text-secondary">
                                     <strong className="text-danger">
-                                        <a href="#" className="text-decoration-none">Pool</a>
+                                        <Link className="text-decoration-none">Pool</Link>
                                     </strong>
                                     <span>
                                         {" "}
