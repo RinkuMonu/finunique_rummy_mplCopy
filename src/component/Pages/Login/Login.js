@@ -43,14 +43,14 @@ export default function Login({ logincheck }) {
       if (response.data.statusCode === 200) {
         console.log("Redirecting in 1 second...");
         // ✅ Save Token in Local Storage
-      if (response.data.data.token) {
-        localStorage.setItem("authToken", response.data.data.token);
-      }
+        if (response.data.data.token) {
+          localStorage.setItem("authToken", response.data.data.token);
+        }
 
-      // ✅ Save User Data (Optional)
-      localStorage.setItem("user", JSON.stringify(response.data.data));
+        // ✅ Save User Data (Optional)
+        localStorage.setItem("user", JSON.stringify(response.data.data));
 
- 
+
 
         setTimeout(() => {
           navigate("/");
@@ -62,6 +62,9 @@ export default function Login({ logincheck }) {
       alert("Error OTP Verify: " + error.response?.data?.message || error.message);
     }
   }
+  const closePopup = ()=>{
+    navigate("/");
+  }
 
   return (
     <>
@@ -69,7 +72,13 @@ export default function Login({ logincheck }) {
         <div className="container">
           <div className="row justify-content-center">
             <div className="loginBox">
+              <button 
+              onClick={closePopup}
+                className="btn btn-close btn-close-white position-absolute m-2"
+                aria-label="Close" style={{top:"14px", right:"16px"}}
+              ></button>
               <div className="heading">
+                
                 <h1>Login</h1>
                 <p>Welcome Back,</p>
               </div>
@@ -87,7 +96,7 @@ export default function Login({ logincheck }) {
                     />
                     {sendotpShow ?
                       "Otp Sent SuccessFul" :
-                      <button onClick={sendotp} className='verifyOtp'>Send Otp</button>
+                      <button onClick={sendotp} className='verifyOtp mt-3'>Send Otp</button>
                     }
                   </div>
                   <div className="mb-3">

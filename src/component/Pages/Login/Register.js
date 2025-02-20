@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Register() {
 
@@ -10,6 +10,7 @@ export default function Register() {
   const [otp, setOtp] = useState("")
   const [sendotpShow, setsendotpShow] = useState(false)
   const [otpverify, setotpVerify] = useState(false)
+  const navigate = useNavigate();
 
   const sendotp = async (e) => {
     e.preventDefault()
@@ -36,24 +37,44 @@ export default function Register() {
       setshowOtp(true)
       alert('OTP Verify Successfully');
       setotpVerify(true)
-      
+      if (response.data.statusCode === 200) {
+        console.log("Redirecting in 1 second...");
+       
+        setTimeout(() => {
+          navigate("/login");
+        }, 1000);
+      }
+
     } catch (error) {
       alert('Error OTP Verify', error)
     }
+  }
+
+  const closePopup = ()=>{
+    navigate("/");
   }
 
   return (
     <>
       <div className="login_page">
         <div className="container">
+        
           <div className="row justify-content-center">
-            <div className="register_page">
+            <div className="register_page   position-relative">
+             
               <div className="heading">
+             
                 <h1>Register Now</h1>
               </div>
               <div className="register_form">
+             
                 <form action="">
                   <div className="row">
+                  <button
+                className="btn btn-close btn-close-white position-absolute m-2 top-3 right-3"
+                aria-label="Close" style={{top:"14px", right:"16px"}}
+                onClick={closePopup}
+              ></button>
                     <div className="col-md-6">
                       <div className="mb-3">
                         <label className="form-label">Mobile</label>
@@ -69,7 +90,7 @@ export default function Register() {
 
                       {sendotpShow ?
                         "Otp Sent SuccessFul" :
-                        <button onClick={sendotp}  className='verifyOtp'>Send Otp</button>
+                        <button onClick={sendotp} className='verifyOtp'>Send Otp</button>
                       }
 
                     </div>
@@ -88,10 +109,10 @@ export default function Register() {
                           />
                         </div>
                         {otpverify ?
-                        "Otp Verification SuccessFul" :
-                        <button onClick={verifyotp} className='verifyOtp'>Verify Otp</button>
-                      }
-                       
+                          "Otp Verification SuccessFul" :
+                          <button onClick={verifyotp} className='verifyOtp'>Verify Otp</button>
+                        }
+
 
                       </div>
                     }
@@ -151,9 +172,9 @@ export default function Register() {
                           <div className="submitBtn mt-3">
                             <button className="registerBtn">Register Now</button>
                           </div>
-                          <div className="redirectregister">
-                        <h4>Already Have a Account? <Link to={'/Login'}>Log In</Link></h4>
-                    </div>
+                          <div className="redirectregister registerh4">
+                            <h4>Already Have a Account? <Link to={'/Login'}>Log In</Link></h4>
+                          </div>
                         </div>
                       </>}
                   </div>

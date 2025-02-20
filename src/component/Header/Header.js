@@ -144,14 +144,14 @@ export default function Header() {
                                         </button>
                                         </>
                                     ) : (
-                                        <Link to="/login" className="btn btn-primary">
+                                        <Link to="/login" className="btn">
                                             Login
                                         </Link>
                                     )}
                                 </li>
                                 {!isLoggedIn && (
                                     <li>
-                                        <Link to="/register" className="btn btn-secondary">
+                                        <Link to="/register" className="btn ">
                                             Register
                                         </Link>
                                     </li>
