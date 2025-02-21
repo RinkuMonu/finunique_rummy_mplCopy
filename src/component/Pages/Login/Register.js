@@ -15,7 +15,7 @@ export default function Register() {
   const sendotp = async (e) => {
     e.preventDefault()
     try {
-      const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/register",
+      const response = await axios.post("https://api.finuniquerummy.com/api/v1/auth/register",
         {
           type: "1", mobile: mobileNo
         })
@@ -30,7 +30,7 @@ export default function Register() {
     e.preventDefault()
 
     try {
-      const response = await axios.post("http://13.203.138.66:3000/api/v1/auth/verify-otp ",
+      const response = await axios.post("https://api.finuniquerummy.com/api/v1/auth/verify-otp",
         { type: "1", mobile: mobileNo, otp: otp }
       )
       setshowName(true)
