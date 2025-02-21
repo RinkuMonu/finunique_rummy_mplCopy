@@ -14,6 +14,10 @@ import Login from './component/Pages/Login/Login';
 import Register from './component/Pages/Login/Register';
 import { useState } from 'react';
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
+import PokerPage from './component/Pages/all games/Poker';
+import Pool from './component/Pages/all games/Pool';
+import Rummy from './component/Pages/all games/Rummy';
+import Faq from './component/Pages/Home/Faq';
 
 function App() {
   const[logincheck,setlogin]=useState(false)
@@ -32,9 +36,27 @@ function App() {
           element: <Home setlogin={logincheck} />,
         },
         {
-          path: "/about",
-          element: <About />,
+          path: "/poker",
+          element: <PokerPage />,
         },
+  
+        {
+          path: "/pool",
+          element: <Pool/>,
+        },
+        {
+          path: "/rummy",
+          element: <Rummy/>,
+        },
+        {
+          path: "/faq",
+          element: <Faq/>,
+        },
+        {
+          path: "/about",
+          element: <About/>,
+        },
+  
         {
           path: "/terms",
           element: <Terms />,
