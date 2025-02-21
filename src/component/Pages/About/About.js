@@ -19,7 +19,7 @@ export default function About() {
       </div>
       <div className="container">
         <div className="col-md-12">
-          <div className="heading text-center">
+          <div className="heading text-center mt-5 pt-5">
             <h2>About Finunique</h2>
           </div>
           <div className="about-content">
