@@ -86,9 +86,9 @@ export default function Header() {
                                 <li className="nav-item">
                                     <Link to="/about" className="nav-link text-dark">{t('about')}</Link>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link to="/faqs" className="nav-link text-dark">{t('faqs')} </Link>
-                                </li>
+                                </li> */}
 
                                 {/* Right Side Section */}
                                 <li className="nav-item d-flex gap-3">
