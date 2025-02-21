@@ -19,8 +19,8 @@ export default function About() {
       </div>
       <div className="container">
         <div className="col-md-12">
-          <div className="heading">
-            <h1>About Finunique</h1>
+          <div className="heading text-center">
+            <h2>About Finunique</h2>
           </div>
           <div className="about-content">
             <h4>Changing skill Based Gaming All over the planet</h4>
