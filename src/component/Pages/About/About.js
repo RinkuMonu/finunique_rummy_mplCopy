@@ -91,7 +91,7 @@ export default function About() {
             <h4> Ability to evolve Based Gaming All over the Planet
             </h4>
             <p> Finunique stays an overall pioneer in the domain of mastery-based gaming, offering an unequaled stage where clients can partake in both free and paid challenges. With a rich and different game portfolio, including sports, puzzles, nice, and table games, Finunique ensures that there is something for each kind of player. Our primary objective is to interface with,
-              serious and compensating experience for gaming lovers all around the planet.
+              serious and compensating experience for gaming lovers all around the planet
               With in excess of 120 million enlisted clients navigating across India, the US, and Nigeria, Finunique has set its circumstance as one of the greatest and most trusted in skill gaming stages.
             </p>
             <h4>An Alternate Gaming Experience for Everyone
