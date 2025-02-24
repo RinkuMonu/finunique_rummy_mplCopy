@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden !important;
+}
 a{
   text-decoration: none;
 }
@@ -55,4 +58,19 @@ a{
 .btn:hover {
     background-color: #d3d4d50f;
     border-color: #c6c7c8;
+}
+@media (max-width: 768px) {
+  .mainreview{
+      max-width: 100% !important;
+      min-width: 100% !important;
+  }
+}
+/* .................. About us ............... */
+.about-list li{
+  margin-bottom: 20px;
+  list-style-type: decimal;
+}
+/* ................... Return And Refund ................ */
+.list-style-type-decimal{
+  list-style-type: disc;
 }

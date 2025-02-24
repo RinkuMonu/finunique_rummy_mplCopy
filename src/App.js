@@ -27,7 +27,7 @@ function App() {
       path: "/",
       element: (
         <>
-          <ScrollToTop /> {/* ScrollToTop ko Router ke andar rakhna zaroori hai */}
+          <ScrollToTop /> 
           <AppLayout />
         </>),
       children: [

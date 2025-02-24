@@ -4,10 +4,10 @@ import { Award, Book, Clock, Users, Star, Trophy } from 'lucide-react';
 function Rummy() {
   return (
     <div>
-      <div 
+      <div
         className="game-banner d-flex align-items-center justify-content-center text-white"
-        style={{ 
-          backgroundImage: 'url("https://images.unsplash.com/photo-1593695808311-99866df61c74?auto=format&fit=crop&q=80")',
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&q=80")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '50vh',
@@ -18,17 +18,18 @@ function Rummy() {
           <h1 className="display-4">Rummy</h1>
         </div>
       </div>
-      
+
       <div className="container my-5">
         {/* Introduction Section */}
         <section className="mb-5">
           <div className="row align-items-center">
             <div className="col-md-6">
               <h2 className="display-6 mb-4">Welcome to Classic Rummy</h2>
-              <p className="lead">Experience the thrill of India's favorite card game. Rummy combines skill, strategy, and excitement in one engaging package.</p>
-              <div className="d-flex gap-3 mt-4">
-              
-              </div>
+              <p className="lead">The Ultimate Guide to Rummy: Mastering the Game of Skill and Strategy</p>
+              <h4>Introduction</h4>
+              <p>Rummy is a classic card game that has been enjoyed by millions of players worldwide. Unlike luck-based games, Rummy is a skill-based game that requires a combination of logical thinking, memory, strategy, and patience. The game has evolved over time and is now widely played on online platforms, where players can compete for real cash prizes and exciting rewards.</p>
+              <p>At Finuniue, we bring the most seamless and engaging Rummy experience for players across India. Whether you are a beginner trying to learn the game or a seasoned player aiming to refine your skills, this guide will provide you with all the necessary knowledge to become a Rummy expert.
+              </p>
             </div>
             <div className="col-md-6">
               <div className="card bg-light">
@@ -44,6 +45,13 @@ function Rummy() {
               </div>
             </div>
           </div>
+          <div className='row align-items-center'>
+            <div className='col-md-12'>
+            
+
+            </div>
+          </div>
+
         </section>
 
         {/* How to Play Section */}
