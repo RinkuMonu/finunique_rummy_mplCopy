@@ -36,7 +36,7 @@ export default function Home() {
                             border: 'none'
                         }}
                     >
-                        Download Now
+                        Download NOW
                     </button>
                 </a>
             </div>
