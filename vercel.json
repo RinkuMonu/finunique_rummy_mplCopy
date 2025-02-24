@@ -1,12 +1,1 @@
-{
-    "static": {
-        "public": "public"
-    },
-    "routes": [
-        {
-            "src": "/finunique.apk",
-            "dest": "/finunique.apk"
-        }
-    ]
-}
 
