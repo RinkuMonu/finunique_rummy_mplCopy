@@ -27,7 +27,7 @@ export default function Footer() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-xl-7 col-lg-4 col-md-6 mb-30 ps-md-5 mt-sm-5 mt-xs-5">
+                            {/* <div className="col-xl-7 col-lg-4 col-md-6 mb-30 ps-md-5 mt-sm-5 mt-xs-5">
                                 <div className="footer-widget">
                                     <div className="footer-widget-heading">
                                         <h3>Popular Card Games</h3>
@@ -38,7 +38,7 @@ export default function Footer() {
                                         <li><Link to='/pool'>Pool</Link></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div class="secondary-footer border-top mx-3 pt-3"><div class="container"><div class="copyright"><div class="row align-items-center"><div class="col-md-12 text-center">© 2025 @Finunique Small Private Limited. All rights reserved.</div></div></div></div></div>
                     </div>
