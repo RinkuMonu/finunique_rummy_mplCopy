@@ -24,22 +24,76 @@ export default function Home() {
                 </div>
             </div>
             {/* First Section */}
-            <div className='container'>
-                <div className="d-flex justify-content-center align-items-center vh-20 bg-light mt-3">
-                    <a href="https://drive.google.com/file/d/1TIEe8ikGoNFT5uKjrdWeCkKvpzAaLIo5/view?usp=drive_link" download>
-                        <button
-                            className="btn btn-primary"
-                            style={{
-                                backgroundColor: 'rgb(255, 51, 102)',
-                                width: '250px',
-                                height: '50px',
-                                fontSize: '20px',
-                                border: 'none'
-                            }}
-                        >
-                            Download Now
-                        </button>
-                    </a>
+
+            <div className="d-flex justify-content-center align-items-center vh-20 bg-light mt-3">
+                <a href={`${process.env.PUBLIC_URL}/finunique.apk`} download>
+                    <button
+                        className="btn btn-primary"
+                        style={{
+                            backgroundColor: 'rgb(255, 51, 102)',
+                            width: '250px',
+                            height: '50px',
+                            fontSize: '20px',
+                            border: 'none'
+                        }}
+                    >
+                        Download Now
+                    </button>
+                </a>
+            </div>
+            <section className="d-flex justify-content-center align-items-center pt-4 mt-4" style={{ backgroundColor: "#fff" }}>
+                <p
+                    className="text-center fw-bold italic px-4 py-2 rounded shadow-lg"
+                    style={{
+                        fontSize: "20px",
+                        lineHeight: "28px",
+                        backgroundColor: "#FFF",
+                        color: "#000",
+                        boxShadow: "0px 1px 1px 0px #f36",
+                    }}
+                >
+                    What Makes Us Different
+                </p>
+            </section>
+
+
+            {/* Second Section */}
+            <section className="py-3 d-flex justify-content-center bg-light">
+                <div className="d-flex flex-row gap-3 align-items-center px-3">
+                    {/* Left Line */}
+                    <div
+                        className="rounded"
+                        style={{
+                            width: "98px",
+                            height: "2px",
+                            background: "linear-gradient(to right, #fff, #f36)",
+                        }}
+                    ></div>
+
+                    <h2
+                        className="d-flex text-center justify-content-center align-items-center fw-bold text-uppercase"
+                        style={{
+                            fontSize: "clamp(24px, 5vw, 48px)", // Responsive font size
+                            lineHeight: "1.2",
+                            color: "#f36",
+                            fontStyle: "italic",
+                            textTransform: "uppercase",
+                            margin: "20px 0"
+                        }}
+                    >
+                        Why Pick the FinUnique App
+                    </h2>
+
+
+                    {/* Right Line */}
+                    <div
+                        className="rounded"
+                        style={{
+                            width: "98px",
+                            height: "2px",
+                            background: "linear-gradient(to right, #f36, #fff)",
+                        }}
+                    ></div>
                 </div>
                 <section className="d-flex justify-content-center align-items-center pt-4 mt-4" style={{ backgroundColor: "#fff" }}>
                     <p
