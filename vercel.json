@@ -2,7 +2,7 @@
     "routes": [
         {
             "src": "/finunique.apk",
-            "dest": "public/finunique.apk"
+            "dest": "/finunique.apk"
         }
     ]
 }
