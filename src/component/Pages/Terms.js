@@ -25,7 +25,7 @@ export default function Terms() {
               <li className='list-style-type-decimal'>Games Offered:
                 <ul className='ps-5'>
                   <li className='list-style-type-decimal'>
-                    Rummy (Points Rummy, Pool Rummy, Deals Rummy)
+                    Rummy (Points Rummy, pool Rummy, Deals Rummy)
                   </li>
                   <li className='list-style-type-decimal'>
                     Poker (Texas, PLO 4, PLO 5, PLO 6)
