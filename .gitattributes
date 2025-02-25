@@ -1,1 +1,2 @@
 *.apk filter=lfs diff=lfs merge=lfs -text
+public/finunique.apk filter=lfs diff=lfs merge=lfs -text

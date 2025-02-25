@@ -25,7 +25,7 @@ export default function Home() {
             {/* First Section */}
 
             <div className="d-flex justify-content-center align-items-center vh-20 bg-light mt-3">
-                <a href={`${process.env.PUBLIC_URL}/finunique.apk`} download>
+                <a href="/finuniqu.apk" download>
                     <button
                         className="btn btn-primary"
                         style={{
@@ -36,7 +36,7 @@ export default function Home() {
                             border: 'none'
                         }}
                     >
-                        Download Now
+                        Download NOW
                     </button>
                 </a>
             </div>
