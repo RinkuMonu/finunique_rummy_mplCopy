@@ -19,15 +19,15 @@ export default function About() {
       </div>
       <div className="container">
         <div className="col-md-12">
-          <div className="heading">
-            <h1>About Finunique</h1>
+          <div className="heading text-center mt-5 pt-5">
+            <h2>About Finunique</h2>
           </div>
           <div className="about-content">
             <h4>Changing skill Based Gaming All over the planet</h4>
             <p>
               Finunique stays as an overall pioneer in the domain of mastery based gaming, offering an unrivaled stage where clients can participate in both free and paid challenges. With a rich and different game portfolio including sports, puzzles, nice, and table games, Finunique ensures that there is something for each kind of player. Our primary objective is to give an interfacing with, serious, and compensating experience for gaming lovers all around the planet.
             </p>
-            <p>With in excess of 120 million enlisted clients navigating across India, the US, and Nigeria, Finunique has set its circumstance as one of the greatest and most trusted in skill gaming stages. Reliably, we work with an enormous number of high-stakes rivalries, allowing players to battle, plan, and show off their gaming skills.
+            <p>With in excess of 120 million enlisted clients navigating across India, the US, and Nigeria, Finunique has set its circumstanc as one of the greatest and most trusted in skill gaming stages. Reliably, we work with an enormous number of high-stakes rivalries, allowing players to battle, plan, and show off their gaming skills.
 
             </p>
             <h4>

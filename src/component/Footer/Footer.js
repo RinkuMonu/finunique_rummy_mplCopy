@@ -33,9 +33,9 @@ export default function Footer() {
                                         <h3>Popular Card Games</h3>
                                     </div>
                                     <ul>
-                                        <li><Link to='/'>Rummy</Link></li>
-                                        <li><Link to='/'>Poker</Link></li>
-                                        <li><Link to='/'>Pool</Link></li>
+                                        <li><Link to='/rummy'>Rummy</Link></li>
+                                        <li><Link to='/poker'>Poker</Link></li>
+                                        <li><Link to='/pool'>Pool</Link></li>
                                     </ul>
                                 </div>
                             </div>

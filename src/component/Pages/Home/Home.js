@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
+// import { Button } from '@/components/ui/button';
+import { Download } from 'lucide-react';
 
 export default function Home() {
+
+    const [showQr, setshowQr] = useState(true)
+
+    const showhideQr = () => {
+        setshowQr(false)
+    }
 
     return (
         <>
@@ -15,6 +23,23 @@ export default function Home() {
                 </div>
             </div>
             {/* First Section */}
+
+            <div className="d-flex justify-content-center align-items-center vh-20 bg-light mt-3">
+                <a href={`${process.env.PUBLIC_URL}/finunique.apk`} download>
+                    <button
+                        className="btn btn-primary"
+                        style={{
+                            backgroundColor: 'rgb(255, 51, 102)',
+                            width: '250px',
+                            height: '50px',
+                            fontSize: '20px',
+                            border: 'none'
+                        }}
+                    >
+                        Download Now
+                    </button>
+                </a>
+            </div>
             <section className="d-flex justify-content-center align-items-center pt-4 mt-4" style={{ backgroundColor: "#fff" }}>
                 <p
                     className="text-center fw-bold italic px-4 py-2 rounded shadow-lg"
@@ -30,6 +55,7 @@ export default function Home() {
                 </p>
             </section>
 
+
             {/* Second Section */}
             <section className="py-3 d-flex justify-content-center bg-light">
                 <div className="d-flex flex-row gap-3 align-items-center px-3">
@@ -44,19 +70,19 @@ export default function Home() {
                     ></div>
 
                     <h2
-                        className="d-flex text-center justify-content-center align-items-center italic font-weight-bold text-uppercase"
+                        className="d-flex text-center justify-content-center align-items-center fw-bold text-uppercase"
                         style={{
-                            fontSize: "48px",
-                            lineHeight: "48px",
+                            fontSize: "clamp(24px, 5vw, 48px)", // Responsive font size
+                            lineHeight: "1.2",
                             color: "#f36",
                             fontStyle: "italic",
-                            fontWeight: "900",
-                            lineHeight: "48px",
                             textTransform: "uppercase",
+                            margin: "20px 0"
                         }}
                     >
                         Why Pick the FinUnique App
                     </h2>
+
 
                     {/* Right Line */}
                     <div
@@ -534,7 +560,7 @@ export default function Home() {
                                     </strong>
                                     <span>
                                         {" "}
-                                         is a game that is well known in each age. This game is an ideal combination of technique, expertise, and tomfoolery. Whether you are playing with companions, family, or outsiders, rummy unites everybody and keeps the fervor alive. Starting from India, this game is presently played everywhere, and over the long run, numerous varieties and arrangements have arisen.
+                                        is a game that is well known in each age. This game is an ideal combination of technique, expertise, and tomfoolery. Whether you are playing with companions, family, or outsiders, rummy unites everybody and keeps the fervor alive. Starting from India, this game is presently played everywhere, and over the long run, numerous varieties and arrangements have arisen.
 
                                     </span>
                                 </p>
@@ -651,7 +677,7 @@ export default function Home() {
 
                 </div>
                 <div className='coming-soon-img'>
-                    <img src='./images/COMMING SOON BANNER-01.jpg' className='img-fluid coming-soonImg'   />
+                    <img src='./images/COMMING SOON BANNER-01.jpg' className='img-fluid coming-soonImg' />
                 </div>
             </section>
             <div className='container'>
@@ -1021,34 +1047,44 @@ export default function Home() {
 
                     </div>
                 </div>
-                <div className="d-flex justify-content-between font-bold  text-center align-items-center fixed"
-                    style={{
-                        border: "1px solid rgba(255, 255, 255, 0.00)",
-                        backdropFilter: "blur(20px)",
-                        background: "linear-gradient(285deg, rgba(255, 255, 255, 0.11) 5.47%, rgba(255, 255, 255, 0.00) 100.36%)",
-                        boxShadow: "0px 8px 10px 0px rgba(0, 0, 0, 0.20), 1px -1px 2px 2px rgba(255, 255, 255, 0.25) inset",
-                        zIndex: 99,
-                        padding: "20px",
-                        borderRadius: "10px",
-                        color: "#000",
-                        position:"fixed",
-                        bottom: "100px", 
-                        right: "50px",
-                        padding:"20px",
-                    }}>
-                    <div>
-                        <img
-                            alt="QR to download MPL money app on desktop"
-                            loading="lazy"
-                            width={100}
-                            height={100}
-                            decoding="async"
-                            className="rounded-sm img-fluid"
-                            src="./images/qr.jpg"
-                        />
-                    </div>
-                    <h2 className="text-white downloadText text-center">Download <br />Finunique</h2>
-                </div>
+                {showQr &&
+                    <div className="d-flex justify-content-between font-bold  text-center align-items-center fixed relative "
+                        style={{
+                            border: "1px solid rgba(255, 255, 255, 0.00)",
+                            backdropFilter: "blur(20px)",
+                            background: "linear-gradient(285deg, rgba(255, 255, 255, 0.11) 5.47%, rgba(255, 255, 255, 0.00) 100.36%)",
+                            boxShadow: "0px 8px 10px 0px rgba(0, 0, 0, 0.20), 1px -1px 2px 2px rgba(255, 255, 255, 0.25) inset",
+                            zIndex: 99,
+                            padding: "20px",
+                            borderRadius: "10px",
+                            color: "#000",
+                            position: "fixed",
+                            bottom: "100px",
+                            right: "50px",
+                            padding: "20px",
+                        }}>
+                        <button onClick={showhideQr}
+                            style={{
+
+                                border: 'none',
+                                position: 'absolute',
+                                top: '0px',
+                                right: '0px'
+                            }}
+                        >  X </button>
+                        <div>
+                            <img
+                                alt="QR to download MPL money app on desktop"
+                                loading="lazy"
+                                width={100}
+                                height={100}
+                                decoding="async"
+                                className="rounded-sm img-fluid"
+                                src="./images/qr.jpg"
+                            />
+                        </div>
+                        <h2 className="text-white downloadText text-center">Download <br />Finunique</h2>
+                    </div>}
             </div>
         </>
     )

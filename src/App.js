@@ -14,6 +14,14 @@ import Login from './component/Pages/Login/Login';
 import Register from './component/Pages/Login/Register';
 import { useState } from 'react';
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
+import PokerPage from './component/Pages/all games/Poker';
+import Pool from './component/Pages/all games/Pool';
+import Rummy from './component/Pages/all games/Rummy';
+import Faq from './component/Pages/Home/Faq';
+import Texas from './component/Pages/all games/Texas';
+import PLO4 from './component/Pages/all games/PLO4';
+import PLO5 from './component/Pages/all games/PLO5';
+import PLO6 from './component/Pages/all games/PLO6';
 
 function App() {
   const[logincheck,setlogin]=useState(false)
@@ -32,9 +40,43 @@ function App() {
           element: <Home setlogin={logincheck} />,
         },
         {
-          path: "/about",
-          element: <About />,
+          path: "/poker",
+          element: <PokerPage />,
         },
+        {
+          path: "/texas",
+          element: <Texas />,
+        },
+        {
+          path: "/plo4",
+          element: <PLO4 />,
+        },
+        {
+          path: "/plo5",
+          element: <PLO5 />,
+        },
+        {
+          path: "/plo6",
+          element: <PLO6 />,
+        },
+  
+        {
+          path: "/pool",
+          element: <Pool/>,
+        },
+        {
+          path: "/rummy",
+          element: <Rummy/>,
+        },
+        {
+          path: "/faq",
+          element: <Faq/>,
+        },
+        {
+          path: "/about",
+          element: <About/>,
+        },
+  
         {
           path: "/terms",
           element: <Terms />,
