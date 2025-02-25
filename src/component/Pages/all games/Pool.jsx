@@ -8,7 +8,7 @@ function Pool() {
       <div 
         className="game-banner d-flex align-items-center justify-content-center text-white"
         style={{ 
-          backgroundImage: 'url("https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&q=80")',
+          backgroundImage: 'url("./images/11062546_18973622.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '50vh',

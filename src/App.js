@@ -20,6 +20,7 @@ import Rummy from './component/Pages/all games/Rummy';
 import Faq from './component/Pages/Home/Faq';
 import Pointsrummy from './component/Pages/all games/RummyGames/Pointsrummy';
 import PoolRummy from './component/Pages/all games/RummyGames/PoolRummy';
+import DealsRummy from './component/Pages/all games/RummyGames/DealsRummy';
 
 function App() {
   const[logincheck,setlogin]=useState(false)
@@ -86,6 +87,10 @@ function App() {
         {
           path: "/poolrummy",
           element: <PoolRummy />,
+        },
+        {
+          path: "/dealsrummy",
+          element: <DealsRummy />,
         },
        
       ],

@@ -157,7 +157,7 @@ function Rummy() {
                       {isExpanded3 ? "Read Less" : "Read More"}
                     </button>
                   </p>
-                  <Link className="arrow-btn" to="#">
+                  <Link className="arrow-btn" to="/dealsrummy">
                     <i className="bi bi-arrow-up-right"></i>
                   </Link>
                 </div>
