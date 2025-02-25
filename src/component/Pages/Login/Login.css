@@ -121,3 +121,8 @@
   float:  inline-end;
 
 }
+@media (max-width:768px){
+  .login_page .loginBox{
+    width: 100% !important;
+  }
+}

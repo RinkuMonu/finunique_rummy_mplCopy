@@ -98,4 +98,13 @@ a{
   .headingmedia{
     display:block !important
   }
+  .imgcontent{
+    display: block !important;
+  }
+  .imgcontent img{
+    margin-bottom: 16px !important;
+  }
+  .login_page .loginBox{
+    width: 100% !important;
+  }
 }

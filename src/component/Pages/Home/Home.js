@@ -250,7 +250,7 @@ export default function Home() {
             </div>
             <div className='container'>
                 <div className='row my-4'>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 d-flex justify-content-center'>
                         <div
                             className="d-flex flex-column justify-content-between mb-3 rounded-3 border p-4"
                             style={{
@@ -299,7 +299,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4  d-flex justify-content-center'>
                         <div
                             className="d-flex flex-column justify-content-between mb-3 rounded-3 border p-4"
                             style={{
@@ -347,7 +347,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 d-flex justify-content-center'>
                         <div
                             className="d-flex flex-column justify-content-between mb-3 rounded-3 border p-4"
                             style={{
@@ -542,7 +542,7 @@ export default function Home() {
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
-                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded"
+                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
                             >
                                 <div className="d-flex align-items-center">
                                     <img
@@ -570,7 +570,7 @@ export default function Home() {
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
-                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded"
+                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
                             >
                                 <div className="d-flex align-items-center">
                                     <img
@@ -600,7 +600,7 @@ export default function Home() {
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
-                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded"
+                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
                             >
                                 <div className="d-flex align-items-center">
                                     <img
