@@ -22,6 +22,9 @@ import Texas from './component/Pages/all games/Texas';
 import PLO4 from './component/Pages/all games/PLO4';
 import PLO5 from './component/Pages/all games/PLO5';
 import PLO6 from './component/Pages/all games/PLO6';
+import Pointsrummy from './component/Pages/all games/RummyGames/Pointsrummy';
+import PoolRummy from './component/Pages/all games/RummyGames/PoolRummy';
+import DealsRummy from './component/Pages/all games/RummyGames/DealsRummy';
 
 function App() {
   const[logincheck,setlogin]=useState(false)
@@ -31,7 +34,7 @@ function App() {
       path: "/",
       element: (
         <>
-          <ScrollToTop /> {/* ScrollToTop ko Router ke andar rakhna zaroori hai */}
+          <ScrollToTop /> 
           <AppLayout />
         </>),
       children: [
@@ -96,6 +99,18 @@ function App() {
         {
           path: "/blog",
           element: <Blog />,
+        },
+        {
+          path: "/pointsrummy",
+          element: <Pointsrummy />,
+        },
+        {
+          path: "/poolrummy",
+          element: <PoolRummy />,
+        },
+        {
+          path: "/dealsrummy",
+          element: <DealsRummy />,
         },
        
       ],

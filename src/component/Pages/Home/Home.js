@@ -25,7 +25,7 @@ export default function Home() {
             {/* First Section */}
 
             <div className="d-flex justify-content-center align-items-center vh-20 bg-light mt-3">
-                <a href={`${process.env.PUBLIC_URL}/finunique.apk`} download>
+                <a href="/finuniqu.apk" download>
                     <button
                         className="btn btn-primary"
                         style={{
@@ -36,7 +36,7 @@ export default function Home() {
                             border: 'none'
                         }}
                     >
-                        Download Now
+                        Download NOW
                     </button>
                 </a>
             </div>
@@ -58,7 +58,7 @@ export default function Home() {
 
             {/* Second Section */}
             <section className="py-3 d-flex justify-content-center bg-light">
-                <div className="d-flex flex-row gap-3 align-items-center px-3">
+                <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                     {/* Left Line */}
                     <div
                         className="rounded"
@@ -96,7 +96,7 @@ export default function Home() {
                 </div>
             </section>
             <div className='row'>
-                <div className='col-md-4'>
+                <div className='col-md-4 mb-3'>
                     <div
                         className="rounded-4 p-4 w-100 h-auto shadow"
                         style={{
@@ -125,7 +125,7 @@ export default function Home() {
                     </div>
 
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 mb-3'>
                     <div
                         className="rounded-4 p-4 w-100 h-auto shadow"
                         style={{
@@ -157,7 +157,7 @@ export default function Home() {
                     </div>
 
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 mb-3'>
                     <div
                         className="rounded-4 w-100 shadow"
                         style={{ boxShadow: "var(--card-games-shadow)", background: "var(--withdraw-bg)" }}
@@ -208,7 +208,7 @@ export default function Home() {
 
                     {/* Second Section */}
                     <section className="py-3 d-flex justify-content-center bg-light">
-                        <div className="d-flex flex-row gap-3 align-items-center px-3">
+                        <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                             {/* Left Line */}
                             <div
                                 className="rounded"
@@ -250,7 +250,7 @@ export default function Home() {
             </div>
             <div className='container'>
                 <div className='row my-4'>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 d-flex justify-content-center'>
                         <div
                             className="d-flex flex-column justify-content-between mb-3 rounded-3 border p-4"
                             style={{
@@ -299,7 +299,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4  d-flex justify-content-center'>
                         <div
                             className="d-flex flex-column justify-content-between mb-3 rounded-3 border p-4"
                             style={{
@@ -347,7 +347,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 d-flex justify-content-center'>
                         <div
                             className="d-flex flex-column justify-content-between mb-3 rounded-3 border p-4"
                             style={{
@@ -425,7 +425,7 @@ export default function Home() {
 
                                 {/* Second Section */}
                                 <section className="py-3 d-flex justify-content-center bg-light">
-                                    <div className="d-flex flex-row gap-3 align-items-center px-3">
+                                    <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                         {/* Left Line */}
                                         <div
                                             className="rounded"
@@ -500,7 +500,7 @@ export default function Home() {
 
                             {/* Second Section */}
                             <section className="py-3 d-flex justify-content-center">
-                                <div className="d-flex flex-row gap-3 align-items-center px-3">
+                                <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                     {/* Left Line */}
                                     <div
                                         className="rounded"
@@ -542,7 +542,7 @@ export default function Home() {
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
-                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded"
+                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
                             >
                                 <div className="d-flex align-items-center">
                                     <img
@@ -570,7 +570,7 @@ export default function Home() {
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
-                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded"
+                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
                             >
                                 <div className="d-flex align-items-center">
                                     <img
@@ -600,7 +600,7 @@ export default function Home() {
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
-                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded"
+                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
                             >
                                 <div className="d-flex align-items-center">
                                     <img
@@ -631,7 +631,7 @@ export default function Home() {
                         <div className='col-md-12'>
                             {/* Second Section */}
                             <section className="py-3 d-flex justify-content-center">
-                                <div className="d-flex flex-row gap-3 align-items-center px-3">
+                                <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                     {/* Left Line */}
                                     <div
                                         className="rounded"
@@ -704,7 +704,7 @@ export default function Home() {
 
                         {/* Second Section */}
                         <section className="py-3 d-flex justify-content-center bg-light">
-                            <div className="d-flex flex-row gap-3 align-items-center px-3">
+                            <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                 {/* Left Line */}
                                 <div
                                     className="rounded"
@@ -799,7 +799,7 @@ export default function Home() {
                     <div className='col-md-12'>
                         {/* Second Section */}
                         <section className="py-3 d-flex justify-content-center bg-light">
-                            <div className="d-flex flex-row gap-3 align-items-center px-3">
+                            <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                 {/* Left Line */}
                                 <div
                                     className="rounded"
@@ -857,7 +857,7 @@ export default function Home() {
 
                         {/* Second Section */}
                         <section className="py-3 d-flex justify-content-center bg-light">
-                            <div className="d-flex flex-row gap-3 align-items-center px-3">
+                            <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                 {/* Left Line */}
                                 <div
                                     className="rounded"
