@@ -106,7 +106,7 @@ function Rummy() {
 
             </div>
             <div className='col-md-4 my-3'>
-              <div className='card border-0 gamecardbody rounded p-3'>
+              <div className='card border-0 gamecardbody rounded p-3 mb-3'>
                 <div className='card-header bg-white border-0 pb-0'>
                   <h4 className='mb-0'>1. Points Rummy
                   </h4>
@@ -118,14 +118,14 @@ function Rummy() {
                       {isExpanded ? "Read Less" : "Read More"}
                     </button>
                   </p>
-                  <Link className="arrow-btn" to="#">
+                  <Link className="arrow-btn" to="/pointsrummy">
                     <i className="bi bi-arrow-up-right"></i>
                   </Link>
                 </div>
               </div>
             </div>
             <div className='col-md-4 my-3'>
-              <div className='card border-0 gamecardbody rounded p-3'>
+              <div className='card border-0 gamecardbody rounded p-3 mb-3'>
                 <div className='card-header bg-white border-0 pb-0'>
                   <h4 className='mb-0'>2. Pool Rummy
                   </h4>
@@ -137,14 +137,14 @@ function Rummy() {
                       {isExpanded2 ? "Read Less" : "Read More"}
                     </button>
                   </p>
-                  <Link className="arrow-btn" to="#">
+                  <Link className="arrow-btn" to="/poolrummy">
                     <i className="bi bi-arrow-up-right"></i>
                   </Link>
                 </div>
               </div>
             </div>
             <div className='col-md-4 my-3'>
-              <div className='card border-0 gamecardbody rounded p-3'>
+              <div className='card border-0 gamecardbody rounded p-3 mb-3'>
                 <div className='card-header bg-white border-0 pb-0'>
                   <h4 className='mb-0'>3. Deals Rummy
 
@@ -172,8 +172,8 @@ function Rummy() {
               <p>Understanding the basic rules of Rummy is crucial for any player. Here’s a step-by-step guide to help you get started.
               </p>
             </div>
-            <div class="col-md-3">
-              <div className='card border-0 gamecardbody rounded p-3' style={{ height: "27rem" }}>
+            <div class="col-md-6">
+              <div className='card border-0 gamecardbody rounded p-3 mb-3'>
                 <div className='card-header bg-white border-0 pb-0'>
                   <h4 className='mb-0'>1. Card Distribution
 
@@ -186,8 +186,8 @@ function Rummy() {
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div className='card border-0 gamecardbody rounded p-3' style={{ height: "27rem" }}>
+            <div class="col-md-6">
+              <div className='card border-0 gamecardbody rounded p-3 mb-3' >
                 <div className='card-header bg-white border-0 pb-0'>
                   <h4 className='mb-0'>2. Objective of the Game
 
@@ -200,8 +200,8 @@ function Rummy() {
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div className='card border-0 gamecardbody rounded p-3' style={{ height: "27rem" }}>
+            <div class="col-md-6">
+              <div className='card border-0 gamecardbody rounded p-3 mb-3' >
                 <div className='card-header bg-white border-0 pb-0'>
                   <h4 className='mb-0'>3. Gameplay Rules
 
@@ -215,8 +215,8 @@ function Rummy() {
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div className='card border-0 gamecardbody rounded p-3' style={{ height: "27rem" }}>
+            <div class="col-md-6">
+              <div className='card border-0 gamecardbody rounded p-3 mb-3'>
                 <div className='card-header bg-white border-0 pb-0'>
                   <h4 className='mb-0'>4. Winning the Game
                   </h4>
@@ -266,9 +266,19 @@ function Rummy() {
 
             </div>
             <div className="col-md-6">
-            <img src="./images/2150971835.jpg"  className="img-fluid"/>
+              <img src="./images/2150971835.jpg" className="img-fluid" />
 
             </div>
+          </div>
+          <div className="row mb-3">
+            <div className="col-md-12">
+              <h4>Final Thoughts</h4>
+              <p>Rummy is more than just a game; it is a mental exercise that enhances logical thinking, patience, and decision-making skills. Whether you are playing for fun or competing for real cash prizes, Rummy offers endless excitement and opportunities to improve your strategic abilities.
+                With Finunique, you can enjoy a secure and fair gaming environment where every move counts. So why wait? Sign up today and start your journey to becoming a Rummy champion!
+              </p>
+            </div>
+
+
           </div>
         </section>
 

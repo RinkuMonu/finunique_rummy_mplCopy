@@ -18,6 +18,8 @@ import PokerPage from './component/Pages/all games/Poker';
 import Pool from './component/Pages/all games/Pool';
 import Rummy from './component/Pages/all games/Rummy';
 import Faq from './component/Pages/Home/Faq';
+import Pointsrummy from './component/Pages/all games/RummyGames/Pointsrummy';
+import PoolRummy from './component/Pages/all games/RummyGames/PoolRummy';
 
 function App() {
   const[logincheck,setlogin]=useState(false)
@@ -76,6 +78,14 @@ function App() {
         {
           path: "/blog",
           element: <Blog />,
+        },
+        {
+          path: "/pointsrummy",
+          element: <Pointsrummy />,
+        },
+        {
+          path: "/poolrummy",
+          element: <PoolRummy />,
         },
        
       ],
