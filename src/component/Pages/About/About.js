@@ -7,7 +7,7 @@ export default function About() {
         <div className="row">
           <div className="col-md-12 ps-0 mt-5">
             <div className="about-banner">
-              <div className="hero-img" style={{ height: "417px" }}>
+              <div className="hero-img">
                 <img
                   src="./images/about us vector-01 (3).jpg"
                   className="img-fluid"

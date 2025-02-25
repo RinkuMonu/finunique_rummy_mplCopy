@@ -3,18 +3,13 @@ import React from 'react'
 export default function PrivacyPolicy() {
     return (
         <>
-            <div className='privacypolicy_section mt-5' style={{ backgroundImage: "url('./images/28694868_gamer_font.jpg')", backgroundSize: "cover", backgroundPosition: "center", alignContent: "center", backgroundAttachment: "fixed" }}>
+            <div className='privacypolicy_section mt-5' style={{ backgroundImage: "url('./images/12.jpg')", backgroundSize: "cover", backgroundPosition: "center", alignContent: "center", backgroundAttachment: "fixed" }}>
                 <div className='container my-5'>
                     <div className='row pt-3'>
                         <div className='col-md-12 align-self-center'>
-                            <p className='mb-3' style={{ fontSize: "12px", color: "#000" }}>Last updated: Feb, 20, 2024</p>
                             <div className='heading'>
-                                <h4 style={{ fontWeight: "300", color: "#000" }}><span className='text-color'>Privacy Policy</span></h4>
                             </div>
                             <div className='content'>
-                                <p className='mt-1' style={{ fontSize: "14px", color: "#000" }}>
-                                    At FinYoonik, your privacy is our priority. This Privacy Policy outlines in detail the types of data we collect, how we use it, and the measures we take to protect your personal information. By using our services and website, you agree to the terms outlined in this policy.
-                                </p>
                             </div>
                         </div>
                     </div>
