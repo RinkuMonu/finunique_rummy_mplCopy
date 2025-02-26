@@ -88,25 +88,21 @@ export default function Footer() {
                                 <h5>Social Media</h5>
                                 <ul className="list-inline ps-0 ms-0 footer-social">
                                     <li className="list-inline-item">
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/profile.php?id=61572631787499">
                                             <i class="bi bi-facebook"></i>
                                         </a>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a href="#">
+                                        <a href="https://www.instagram.com/fin_unique_/">
                                             <i class="bi bi-instagram"></i>
                                         </a>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a href="#">
+                                        <a href="https://x.com/home">
                                             <i class="bi bi-twitter-x"></i>
                                         </a>
                                     </li>
-                                    <li className="list-inline-item">
-                                        <a href="#">
-                                            <i class="bi bi-linkedin"></i>
-                                        </a>
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
