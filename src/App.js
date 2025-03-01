@@ -18,6 +18,10 @@ import PokerPage from './component/Pages/all games/Poker';
 import Pool from './component/Pages/all games/Pool';
 import Rummy from './component/Pages/all games/Rummy';
 import Faq from './component/Pages/Home/Faq';
+import Texas from './component/Pages/all games/Texas';
+import PLO4 from './component/Pages/all games/PLO4';
+import PLO5 from './component/Pages/all games/PLO5';
+import PLO6 from './component/Pages/all games/PLO6';
 import Pointsrummy from './component/Pages/all games/RummyGames/Pointsrummy';
 import PoolRummy from './component/Pages/all games/RummyGames/PoolRummy';
 import DealsRummy from './component/Pages/all games/RummyGames/DealsRummy';
@@ -41,6 +45,22 @@ function App() {
         {
           path: "/poker",
           element: <PokerPage />,
+        },
+        {
+          path: "/texas",
+          element: <Texas />,
+        },
+        {
+          path: "/plo4",
+          element: <PLO4 />,
+        },
+        {
+          path: "/plo5",
+          element: <PLO5 />,
+        },
+        {
+          path: "/plo6",
+          element: <PLO6 />,
         },
   
         {
