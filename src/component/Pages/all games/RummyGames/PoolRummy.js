@@ -35,7 +35,7 @@ export default function PoolRummy() {
             <div
                 className="game-banner d-flex align-items-center justify-content-center text-white"
                 style={{
-                    backgroundImage: 'url("./images/11062546_18973622.jpg")',
+                    backgroundImage: 'url("./images/Banner/Pool Rummy banner-01.jpg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     height: '50vh',

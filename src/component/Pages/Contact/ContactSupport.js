@@ -30,7 +30,7 @@ const ContactSupport = () => {
       <div 
         className="game-banner d-flex align-items-center justify-content-center text-white"
         style={{ 
-          backgroundImage: 'url("https://img.freepik.com/free-vector/blue-contact-icons-background_23-2147607328.jpg?semt=ais_hybrid")',
+          backgroundImage: 'url("./images/Banner/Contact Us-01.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '50vh',

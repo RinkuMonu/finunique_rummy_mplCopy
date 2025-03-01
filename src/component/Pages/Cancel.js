@@ -4,7 +4,7 @@ import "../Pages/Home/Home.css";
 export default function Cancel() {
   return (
     <>
-      <div className='privacypolicy_section' style={{ backgroundImage: "url('./images/14.jpg')", backgroundSize: "cover", backgroundPosition: "center", alignContent: "center", backgroundAttachment: "fixed", height: "50vh" }}>
+      <div className='privacypolicy_section' style={{ backgroundImage: "url('./images/Banner/Returns, Refunds-01.jpg')", backgroundSize: "contain", backgroundPosition: "center", alignContent: "center", backgroundAttachment: "fixed", height: "80vh" }}>
         <div className='container'>
           <div className='row pt-3'>
           </div>

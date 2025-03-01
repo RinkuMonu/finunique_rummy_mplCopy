@@ -40,7 +40,7 @@ function Rummy() {
       <div
         className="game-banner d-flex align-items-center justify-content-center text-white"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&q=80")',
+          backgroundImage: 'url("./images/Banner/Rummy 1-01.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '50vh',

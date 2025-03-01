@@ -38,7 +38,7 @@ export default function DealsRummy() {
             <div
                 className="game-banner d-flex align-items-center justify-content-center text-white"
                 style={{
-                    backgroundImage: 'url("./images/compressed_415452329_ffc2ce48-2a2f-42bf-baa7-63bd7429de63.jpg")',
+                    backgroundImage: 'url("./images/Banner/Deals Rummy banner-01.jpg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     height: '50vh',

@@ -7,7 +7,7 @@ export default function Pointsrummy() {
             <div
                 className="game-banner d-flex align-items-center justify-content-center text-white"
                 style={{
-                    backgroundImage: 'url("./images/6640325_23142.jpg")',
+                    backgroundImage: 'url("./images/Banner/Points Rummy banner-01.jpg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     height: '50vh',

@@ -9,7 +9,7 @@ export default function About() {
             <div className="about-banner">
               <div className="hero-img">
                 <img
-                  src="./images/about us vector-01 (3).jpg"
+                  src="./images/Banner/about.jpg"
                   className="img-fluid"
                 />
               </div>

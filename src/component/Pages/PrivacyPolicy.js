@@ -3,7 +3,7 @@ import React from 'react'
 export default function PrivacyPolicy() {
     return (
         <>
-            <div className='privacypolicy_section mt-5' style={{ backgroundImage: "url('./images/12.jpg')", backgroundSize: "cover", backgroundPosition: "center", alignContent: "center", backgroundAttachment: "fixed" }}>
+            <div className='privacypolicy_section mt-5' style={{ backgroundImage: "url('./images/Banner/Privacy Policy-01.jpg')", backgroundSize: "contain", backgroundPosition: "center", alignContent: "center", backgroundAttachment: "fixed", height:"60vh" }}>
                 <div className='container my-5'>
                     <div className='row pt-3'>
                         <div className='col-md-12 align-self-center'>

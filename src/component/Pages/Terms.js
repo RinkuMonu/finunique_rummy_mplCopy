@@ -3,7 +3,7 @@ import React from 'react'
 export default function Terms() {
   return (
     <>
-      <div className='terms_section' style={{ backgroundImage: "url('./images/13.jpg')", backgroundSize: "cover",  height: "50vh" }}></div>
+      <div className='terms_section' style={{ backgroundImage: "url('./images/Banner/Terms and Conditions-01.jpg')", backgroundSize: "cover",  height: "70vh" }}></div>
       <div className='container'>
         <div className='row mt-5'>
           <div className='col-md-12'>
