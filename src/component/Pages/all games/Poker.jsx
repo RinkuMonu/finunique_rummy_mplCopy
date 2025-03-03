@@ -9,17 +9,17 @@ function Poker() {
         className="game-banner d-flex align-items-center justify-content-center text-white"
         style={{
           backgroundImage:
-            'url("https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&q=80")',
-          height: "50vh", // 50% of viewport height
+            'url("./images/Pokerbanner-01.jpg")',
+          height: '70vh',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="banner-overlay w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
+        {/* <div className="banner-overlay w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
           <h1 className="display-4 fs-2">
             Poker Games – The Ultimate Test of Skill and Strategy
           </h1>
-        </div>
+        </div> */}
       </div>
 
       <div className="container my-5">

@@ -8,17 +8,17 @@ function Pool() {
       <div
         className="game-banner d-flex align-items-center justify-content-center text-white"
         style={{
-          backgroundImage: 'url("./images/11062546_18973622.jpg")',
+          backgroundImage: 'url("./images/Poolbanner-01.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '50vh',
+          height: '70vh',
           position: 'relative'
         }}
       >
-        <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
-          <h1 className="display-4">Pool</h1>
-        </div>
-      </div>
+        {/* <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
+          {/* <h1 className="display-4">Pool</h1> 
+        </div>*/}
+      </div> 
 
       <div class="container py-5">
         <h1 class="text-center mb-4">Pool Games – A Perfect Blend of Strategy and Entertainment</h1>

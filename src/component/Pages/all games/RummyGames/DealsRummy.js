@@ -41,13 +41,13 @@ export default function DealsRummy() {
                     backgroundImage: 'url("./images/Banner/Deals Rummy banner-01.jpg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    height: '50vh',
+                    height: '70vh',
                     position: 'relative'
                 }}
             >
-                <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
+                {/* <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
                     <h1 className="display-4">Deals Rummy</h1>
-                </div>
+                </div> */}
             </div>
             <div className='container'>
                 <div className='row my-4 align-items-center'>

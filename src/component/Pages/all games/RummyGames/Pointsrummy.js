@@ -10,13 +10,13 @@ export default function Pointsrummy() {
                     backgroundImage: 'url("./images/Banner/Points Rummy banner-01.jpg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    height: '50vh',
+                    height: '70vh',
                     position: 'relative'
                 }}
             >
-                <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
+                {/* <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
                     <h1 className="display-4">Points Rummy</h1>
-                </div>
+                </div> */}
             </div>
             <div className='container my-5 pointsrummy_section'>
                 <div className='row mb-4'>

@@ -43,13 +43,13 @@ function Rummy() {
           backgroundImage: 'url("./images/Banner/Rummy 1-01.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '50vh',
+          height: '70vh',
           position: 'relative'
         }}
       >
-        <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
-          <h1 className="display-4">Rummy</h1>
-        </div>
+         {/* <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
+         <h1 className="display-4">Rummy</h1> 
+        </div>*/}
       </div>
 
       <div className="container my-5">

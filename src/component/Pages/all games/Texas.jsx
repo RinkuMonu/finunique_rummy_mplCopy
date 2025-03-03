@@ -15,11 +15,11 @@ function Texas() {
           backgroundPosition: "center",
         }}
       >
-        <div className="banner-overlay w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
+        {/* <div className="banner-overlay w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
           <h1 className="display-4 fs-2">
             Texas Hold’em Poker – The Ultimate Game of Skill and Strategy
           </h1>
-        </div>
+        </div> */}
       </div>
 
       <section className=" pb-0 px-5">
