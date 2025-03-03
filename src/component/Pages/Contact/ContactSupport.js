@@ -37,9 +37,9 @@ const ContactSupport = () => {
           position: 'relative'
         }}
       >
-        <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
+        {/* <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
           <h1 className="display-4">Contact..</h1>
-        </div>
+        </div> */}
       </div>
     
     <Container className="py-5 mt-5">
