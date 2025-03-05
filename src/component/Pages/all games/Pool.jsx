@@ -1,5 +1,6 @@
 import React from 'react';
 import { Target, Award, Users, Book, Clock, Trophy } from 'lucide-react';
+import '../Home/Home.css';
 
 function Pool() {
   return (

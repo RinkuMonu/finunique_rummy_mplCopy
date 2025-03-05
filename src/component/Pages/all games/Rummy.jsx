@@ -44,7 +44,8 @@ function Rummy() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '70vh',
-          position: 'relative'
+          position: 'relative',
+          maxWidth: '100%',
         }}
       >
          {/* <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">

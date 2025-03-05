@@ -162,7 +162,7 @@ function Poker() {
             <div className="col-md-6">
             <div className="resellervector mt-5">
                       <img
-                        className="move_horizontal ms-5"
+                        className="move_horizontal ms-5 img-fluid"
                         style={{ height: "90vh", width:"70vh" }}
                         img
                         src="./images/texas_banner.jpg"

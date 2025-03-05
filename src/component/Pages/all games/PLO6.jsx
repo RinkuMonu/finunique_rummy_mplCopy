@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../Home/Home.css'
 import { Award, Shield } from "lucide-react";
 import { GiRank3 } from "react-icons/gi";
 function PLO6() {

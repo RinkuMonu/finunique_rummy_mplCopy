@@ -1,6 +1,7 @@
 import React from "react";
 import { Award, Shield } from "lucide-react";
 import { GiRank3 } from "react-icons/gi";
+import '../Home/Home.css'
 
 function Texas() {
   return (
