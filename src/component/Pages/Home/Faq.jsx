@@ -1,11 +1,12 @@
 import React from 'react'
+import './Home.css'
 
 export default function Faq() {
   return (<>
    <div 
         className="game-banner d-flex align-items-center justify-content-center text-white"
         style={{ 
-          backgroundImage: 'url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhbm5lcnxlbnwwfHwwfHx8MA%3D%3D")',
+          backgroundImage: 'url("./images/Banner/faq banner-01.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '50vh',

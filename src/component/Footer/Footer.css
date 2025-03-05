@@ -37,6 +37,7 @@ ul {
   border-radius: 20px;
   color: #fff;
   margin-top: 20px;
+  padding:30px;
 }
 .footer-pattern img {
   position: absolute;
@@ -162,9 +163,4 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
-}
-@media(max-width:575px){
-  .footer-widget{
-    margin-top: 3rem!important;
-  }
 }

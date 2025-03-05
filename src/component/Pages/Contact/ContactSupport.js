@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col, Form, Button, Modal } from "react-bootstrap";
+import '../Home/Home.css';
 
 const ContactSupport = () => {
   const [formData, setFormData] = useState({
@@ -18,10 +19,9 @@ const ContactSupport = () => {
     e.preventDefault();
     console.log("Form Submitted:", formData);
 
-    setShowModal(true); // Show Success Modal
-    setTimeout(() => setShowModal(false), 3000); // Auto-close after 3 seconds
+    setShowModal(true);
+    setTimeout(() => setShowModal(false), 3000); 
 
-    // Clear form fields
     setFormData({ name: "", email: "", message: "" });
   };
 
@@ -30,16 +30,13 @@ const ContactSupport = () => {
       <div 
         className="game-banner d-flex align-items-center justify-content-center text-white"
         style={{ 
-          backgroundImage: 'url("https://img.freepik.com/free-vector/blue-contact-icons-background_23-2147607328.jpg?semt=ais_hybrid")',
+          backgroundImage: 'url("./images/Banner/Contact Us-01.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '50vh',
           position: 'relative'
         }}
       >
-        <div className="bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
-          <h1 className="display-4">Contact..</h1>
-        </div>
       </div>
     
     <Container className="py-5 mt-5">

@@ -58,7 +58,7 @@ export default function Home() {
 
             {/* Second Section */}
             <section className="py-3 d-flex justify-content-center bg-light">
-                <div className="d-flex flex-row gap-3 align-items-center px-3">
+                <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                     {/* Left Line */}
                     <div
                         className="rounded"
@@ -80,7 +80,7 @@ export default function Home() {
                             margin: "20px 0"
                         }}
                     >
-                        Why Pick the FinUnique App
+                        FinUnique Games
                     </h2>
 
 
@@ -96,388 +96,14 @@ export default function Home() {
                 </div>
             </section>
             <div className='row'>
-                <div className='col-md-4'>
-                    <div
-                        className="rounded-4 p-4 w-100 h-auto shadow"
-                        style={{
-                            boxShadow: "var(--card-games-shadow)",
-                            background: "var(--withdraw-bg)"
-                        }}
-                    >
-                        <div>
-                            <h3 className="fw-bold text-why-pick-Finunique-heading text-20px text-sm-14px text-sm-start">
-                                PLAY GAMES AND WIN REAL CASH
-                            </h3>
-                            <p className="text-why-pick-Finunique-subheading text-16px text-sm-12px">
-                                Stand a chance to win
-                                <span className="fw-extrabold text-chanceWinAmount text-16px">
-                                    {" "}₹20 Crore
-                                </span>
-                            </p>
-                            <img
-                                alt="close-icon"
-                                loading="lazy"
-                                className="img-fluid rounded-4"
-                                style={{ color: "transparent" }}
-                                src="./images/1.1.jpg"
-                            />
-                        </div>
-                    </div>
-
-                </div>
-                <div className='col-md-4'>
-                    <div
-                        className="rounded-4 p-4 w-100 h-auto shadow"
-                        style={{
-                            boxShadow: "var(--card-games-shadow)",
-                            background: "var(--withdraw-bg)"
-                        }}
-                    >
-                        <div>
-                            <h3 className="fw-bold text-why-pick-Finunique-heading text-20px text-sm-14px text-sm-start">
-                                FIND A REAL PLAYER ONLINE EVERYTIME!
-                            </h3>
-                            <p className="text-why-pick-Finunique-subheading text-16px text-sm-12px">
-                                Stand a chance to win
-                                <span className="fw-extrabold text-chanceWinAmount text-16px">
-                                    1 Lakh + Players online
-                                </span>
-                            </p>
-                            <img
-                                alt="close-icon"
-                                loading="lazy"
-                                width="150"
-                                height="150"
-                                decoding="async"
-                                className="w-100 h-auto"
-                                style={{ color: "transparent" }}
-                                src="./images/2.2.jpg"
-                            />
-                        </div>
-                    </div>
-
-                </div>
-                <div className='col-md-4'>
-                    <div
-                        className="rounded-4 w-100 shadow"
-                        style={{ boxShadow: "var(--card-games-shadow)", background: "var(--withdraw-bg)" }}
-                    >
-                        <div className="bg-success rounded-top-4 d-flex justify-content-center align-items-center overflow-hidden position-relative" >
-                            <div className="rounded-circle d-flex justify-content-center align-items-center" >
-                                <div className="rounded-circle d-flex justify-content-center align-items-center" >
-                                    <div className="rounded-circle d-flex justify-content-center align-items-center" >
-                                        <div className="rounded-circle">
-                                            <img
-                                                alt="payment wallet"
-                                                loading="lazy"
-                                                //   width="80"
-                                                //   height="80"
-                                                className="img-fluid"
-                                                style={{ color: "transparent" }}
-                                                src="./images/1.jpg"
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="p-4">
-                            <h3 className="fw-bold text-why-pick-Finunique-heading text-28px text-sm-16px">WITHDRAW REAL CASH WINNINGS INSTANTLY</h3>
-                            <p className="text-why-pick-Finunique-heading text-16px text-sm-12px">80% transactions processed in less than a minute</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div className='row'>
                 <div className='col-md-12'>
-                    <section className="d-flex justify-content-center align-items-center pt-4 mt-4" style={{ backgroundColor: "#fff" }}>
-                        <p
-                            className="text-center fw-bold italic px-4 py-2 rounded shadow-lg"
-                            style={{
-                                fontSize: "20px",
-                                lineHeight: "28px",
-                                backgroundColor: "#FFF",
-                                color: "#000",
-                                boxShadow: "0px 1px 1px 0px #f36",
-                            }}
-                        >
-                            2L+ Gaming App Reviews
-                        </p>
-                    </section>
-
-                    {/* Second Section */}
-                    <section className="py-3 d-flex justify-content-center bg-light">
-                        <div className="d-flex flex-row gap-3 align-items-center px-3">
-                            {/* Left Line */}
-                            <div
-                                className="rounded"
-                                style={{
-                                    width: "98px",
-                                    height: "2px",
-                                    background: "linear-gradient(to right, #fff, #f36)",
-                                }}
-                            ></div>
-
-                            <h2
-                                className="d-flex text-center justify-content-center align-items-center italic font-weight-bold text-uppercase"
-                                style={{
-                                    fontSize: "48px",
-                                    lineHeight: "48px",
-                                    color: "#f36",
-                                    fontStyle: "italic",
-                                    fontWeight: "900",
-                                    lineHeight: "48px",
-                                    textTransform: "uppercase",
-                                }}
-                            >
-                                Online money game reviews
-
-                            </h2>
-
-                            {/* Right Line */}
-                            <div
-                                className="rounded"
-                                style={{
-                                    width: "98px",
-                                    height: "2px",
-                                    background: "linear-gradient(to right, #f36, #fff)",
-                                }}
-                            ></div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-            <div className='container'>
-                <div className='row my-4'>
-                    <div className='col-md-4'>
-                        <div
-                            className="d-flex flex-column justify-content-between mb-3 rounded-3 border p-4"
-                            style={{
-                                boxShadow: "4px 4px 0px 0px #f11f84",
-                                background: "#ffffff",
-                                minWidth: "300px",
-                                maxWidth: "300px",
-
-                                borderStyle: "solid",
-                                border: "1px solid #f11f84"
-                            }}
-                        >
-                            <div className="d-flex flex-column gap-3">
-                                <div className="d-flex flex-column flex-sm-row align-items-center gap-3" style={{}}>
-                                    <img
-                                        alt="Picture of real player Rohith"
-                                        loading="lazy"
-                                        width="80"
-                                        height="80"
-                                        className="rounded-circle bg-lightgray bg-center bg-cover bg-no-repeat"
-                                        src="./images/1.png"
-                                    />
-                                    <div>
-                                        <p className="fw-bold text-uppercase italic" style={{ color: "var(--para-text-1)", fontSize: "20px" }}>ROHITH</p>
-                                        <p className="text-muted" style={{ color: "var(--para-text-1)", fontSize: "16px" }}>Bangalore</p>
-                                        <div className="d-flex">
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p className="text-muted" style={{ fontSize: "14px" }}>
-                                    "I won over 2 lakhs playing Finunique! It is trustworthy, has anti-fraud protection, and the best part is I can withdraw my winnings instantly. You can win too, just like me, on Finunique!"
-                                </p>
-                                <p className="fw-bold text-uppercase italic" style={{
-                                    background: "linear-gradient(180deg,#18cf96,#059669)",
-                                    WebkitBackgroundClip: "text",
-                                    WebkitTextFillColor: "transparent",
-                                    fontSize: "20px"
-                                }}>
-                                    Won ₹2 Lakhs
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-md-4'>
-                        <div
-                            className="d-flex flex-column justify-content-between mb-3 rounded-3 border p-4"
-                            style={{
-                                boxShadow: "4px 4px 0px 0px #f11f84",
-                                background: "#ffffff",
-                                minWidth: "300px",
-                                maxWidth: "300px",
-                                borderStyle: "solid",
-                                border: "1px solid #f11f84"
-                            }}
-                        >
-                            <div className="d-flex flex-column gap-3">
-                                <div className="d-flex flex-column flex-sm-row align-items-center gap-3" style={{}}>
-                                    <img
-                                        alt="Picture of real player Rohith"
-                                        loading="lazy"
-                                        width="80"
-                                        height="80"
-                                        className="rounded-circle bg-lightgray bg-center bg-cover bg-no-repeat"
-                                        src="./images/1.png"
-                                    />
-                                    <div>
-                                        <p className="fw-bold text-uppercase italic" style={{ color: "var(--para-text-1)", fontSize: "20px" }}>PRATAP</p>
-                                        <p className="text-muted" style={{ color: "var(--para-text-1)", fontSize: "16px" }}>Delhi</p>
-                                        <div className="d-flex">
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p className="text-muted" style={{ fontSize: "14px" }}>
-                                    "For the last 2 years, I've been playing on Finunique and have won ₹80 lakhs. Finunique anti-fraud system allows me to play without any worries. Play Finunique and win big, just like me!"
-                                </p>
-                                <p className="fw-bold text-uppercase italic" style={{
-                                    background: "linear-gradient(180deg,#18cf96,#059669)",
-                                    WebkitBackgroundClip: "text",
-                                    WebkitTextFillColor: "transparent",
-                                    fontSize: "20px"
-                                }}>
-                                    Won ₹80 Lakhs
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-md-4'>
-                        <div
-                            className="d-flex flex-column justify-content-between mb-3 rounded-3 border p-4"
-                            style={{
-                                boxShadow: "4px 4px 0px 0px #f11f84",
-                                background: "#ffffff",
-                                minWidth: "300px",
-                                maxWidth: "300px",
-
-                                borderStyle: "solid",
-                                border: "1px solid #f11f84"
-                            }}
-                        >
-                            <div className="d-flex flex-column gap-3">
-                                <div className="d-flex flex-column flex-sm-row align-items-center gap-3" style={{}}>
-                                    <img
-                                        alt="Picture of real player Rohith"
-                                        loading="lazy"
-                                        width="80"
-                                        height="80"
-                                        className="rounded-circle bg-lightgray bg-center bg-cover bg-no-repeat"
-                                        src="./images/1.png"
-                                    />
-                                    <div>
-                                        <p className="fw-bold text-uppercase italic" style={{ color: "var(--para-text-1)", fontSize: "20px" }}>Rohan</p>
-                                        <p className="text-muted" style={{ color: "var(--para-text-1)", fontSize: "16px" }}>Goa</p>
-                                        <div className="d-flex">
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                            <i class="bi bi-star-fill" style={{ color: "yellow" }}></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p className="text-muted" style={{ fontSize: "14px" }}>
-                                    "I won over 2 lakhs playing Finunique! It is trustworthy, has anti-fraud protection, and the best part is I can withdraw my winnings instantly. You can win too, just like me, on Finunique!"
-                                </p>
-                                <p className="fw-bold text-uppercase italic" style={{
-                                    background: "linear-gradient(180deg,#18cf96,#059669)",
-                                    WebkitBackgroundClip: "text",
-                                    WebkitTextFillColor: "transparent",
-                                    fontSize: "20px"
-                                }}>
-                                    Won ₹2 Lakhs
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
+                <img src='./images/Banner/home banner-01.jpg' className='img-fluid' />
 
                 </div>
 
             </div>
-            <div className='container'>
-                <div className='row' >
-                    <div className='col-md-12'>
-                        <div className='row'>
-                            <div className='col-md-12'>
-                                <section className="d-flex justify-content-center align-items-center pt-4 mt-4" style={{ backgroundColor: "#fff" }}>
-                                    <p
-                                        className="text-center fw-bold italic px-4 py-2 rounded shadow-lg"
-                                        style={{
-                                            fontSize: "20px",
-                                            lineHeight: "28px",
-                                            backgroundColor: "#FFF",
-                                            color: "#000",
-                                            boxShadow: "0px 1px 1px 0px #f36",
-                                        }}
-                                    >
-                                        Trusted by 90k+ Indians
-
-
-                                    </p>
-                                </section>
-
-                                {/* Second Section */}
-                                <section className="py-3 d-flex justify-content-center bg-light">
-                                    <div className="d-flex flex-row gap-3 align-items-center px-3">
-                                        {/* Left Line */}
-                                        <div
-                                            className="rounded"
-                                            style={{
-                                                width: "98px",
-                                                height: "2px",
-                                                background: "linear-gradient(to right, #fff, #f36)",
-                                            }}
-                                        ></div>
-
-                                        <h2
-                                            className="d-flex text-center justify-content-center align-items-center italic font-weight-bold text-uppercase"
-                                            style={{
-                                                fontSize: "48px",
-                                                lineHeight: "48px",
-                                                color: "#f36",
-                                                fontStyle: "italic",
-                                                fontWeight: "900",
-                                                lineHeight: "48px",
-                                                textTransform: "uppercase",
-                                            }}
-                                        >
-                                            Rated by real cash gamers online
-
-                                        </h2>
-
-                                        {/* Right Line */}
-                                        <div
-                                            className="rounded"
-                                            style={{
-                                                width: "98px",
-                                                height: "2px",
-                                                background: "linear-gradient(to right, #f36, #fff)",
-                                            }}
-                                        ></div>
-                                    </div>
-                                </section>
-                            </div>
-                            <div className='row'>
-                                <div className='col-md-12 my-5'>
-                                    <div className='shadow-lg rounded'>
-                                        <img src='./images/review.jpg' className='img-fluid' />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
+            
+            
             <section style={{ backgroundColor: "#d8edff" }}>
                 <div className='container'>
 
@@ -500,7 +126,7 @@ export default function Home() {
 
                             {/* Second Section */}
                             <section className="py-3 d-flex justify-content-center">
-                                <div className="d-flex flex-row gap-3 align-items-center px-3">
+                                <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                     {/* Left Line */}
                                     <div
                                         className="rounded"
@@ -542,7 +168,7 @@ export default function Home() {
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
-                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded"
+                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
                             >
                                 <div className="d-flex align-items-center">
                                     <img
@@ -570,7 +196,7 @@ export default function Home() {
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
-                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded"
+                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
                             >
                                 <div className="d-flex align-items-center">
                                     <img
@@ -600,7 +226,7 @@ export default function Home() {
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
-                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded"
+                                className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
                             >
                                 <div className="d-flex align-items-center">
                                     <img
@@ -631,7 +257,7 @@ export default function Home() {
                         <div className='col-md-12'>
                             {/* Second Section */}
                             <section className="py-3 d-flex justify-content-center">
-                                <div className="d-flex flex-row gap-3 align-items-center px-3">
+                                <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                     {/* Left Line */}
                                     <div
                                         className="rounded"
@@ -677,14 +303,14 @@ export default function Home() {
 
                 </div>
                 <div className='coming-soon-img'>
-                    <img src='./images/COMMING SOON BANNER-01.jpg' className='img-fluid coming-soonImg' />
+                    <img src='./images/Banner/cms.jpg' className='img-fluid coming-soonImg' />
                 </div>
             </section>
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-12'>
                         <section className="d-flex justify-content-center align-items-center pt-4 mt-4" style={{ backgroundColor: "#fff" }}>
-                            <p
+                            {/* <p
                                 className="text-center fw-bold italic px-4 py-2 rounded shadow-lg"
                                 style={{
                                     fontSize: "20px",
@@ -699,12 +325,12 @@ export default function Home() {
 
 
 
-                            </p>
+                            </p> */}
                         </section>
 
                         {/* Second Section */}
                         <section className="py-3 d-flex justify-content-center bg-light">
-                            <div className="d-flex flex-row gap-3 align-items-center px-3">
+                            <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                 {/* Left Line */}
                                 <div
                                     className="rounded"
@@ -799,7 +425,7 @@ export default function Home() {
                     <div className='col-md-12'>
                         {/* Second Section */}
                         <section className="py-3 d-flex justify-content-center bg-light">
-                            <div className="d-flex flex-row gap-3 align-items-center px-3">
+                            <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                 {/* Left Line */}
                                 <div
                                     className="rounded"
@@ -857,7 +483,7 @@ export default function Home() {
 
                         {/* Second Section */}
                         <section className="py-3 d-flex justify-content-center bg-light">
-                            <div className="d-flex flex-row gap-3 align-items-center px-3">
+                            <div className="d-flex flex-row gap-3 align-items-center px-3 headingmedia">
                                 {/* Left Line */}
                                 <div
                                     className="rounded"
