@@ -78,6 +78,9 @@ export default function Footer() {
                                             <li>
                                                 <Link to={"/contact"}>Contact & Support</Link>
                                             </li>
+                                            <li>
+                                                <Link to={"/gamerules"}>Game Rules</Link>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

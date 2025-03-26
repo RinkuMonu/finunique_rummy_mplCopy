@@ -25,6 +25,7 @@ import PLO6 from './component/Pages/all games/PLO6';
 import Pointsrummy from './component/Pages/all games/RummyGames/Pointsrummy';
 import PoolRummy from './component/Pages/all games/RummyGames/PoolRummy';
 import DealsRummy from './component/Pages/all games/RummyGames/DealsRummy';
+import Gamerules from './component/Pages/Gamerules/Gamerules';
 
 function App() {
   const[logincheck,setlogin]=useState(false)
@@ -111,6 +112,10 @@ function App() {
         {
           path: "/dealsrummy",
           element: <DealsRummy />,
+        },
+        {
+          path: "/gamerules",
+          element: <Gamerules />,
         },
        
       ],
