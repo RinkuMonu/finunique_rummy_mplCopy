@@ -25,7 +25,7 @@ export default function Home() {
             {/* First Section */}
 
             <div className="d-flex justify-content-center align-items-center vh-20 bg-light mt-3">
-                <a href="/finunique-26-3.apk" download>
+                <a href="https://indusapp.store/mwvbplnq" download>
                     <button
                         className="btn btn-primary"
                         style={{
