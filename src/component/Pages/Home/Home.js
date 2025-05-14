@@ -706,7 +706,7 @@ export default function Home() {
                                 height={100}
                                 decoding="async"
                                 className="rounded-sm img-fluid"
-                                src="./images/qr.jpg"
+                                src="./images/qr.png"
                             />
                         </div>
                         <h2 className="text-white downloadText text-center">Download <br />Finunique</h2>
