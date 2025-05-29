@@ -25,7 +25,7 @@ export default function About() {
           <div className="about-content">
             <h4 className="mt-5">Introduction</h4>
             <p>
-              Welcome to FINUNIQUERUMMY , India’s premier skill-based gaming platform, where passion meets technology to create an unmatched gaming experience. FINUNIQUE SMALL PVT LTD was established in 2024 with a vision to revolutionize the online gaming industry in India. Our platform provides a secure and engaging environment where players can compete in Rummy, Poker, and Pool games while testing and refining their skills. We are committed to delivering a seamless gaming experience with cutting-edge technology, ensuring fairness, transparency, and the highest level of security.
+              Welcome to FINUNIQUERUMMY , India’s premier skill-based gaming platform, where passion meets technology to create an unmatched gaming experience. FINUNIQUE SMALL PVT LTD was established in 2024 with a vision to revolutionize the online gaming industry in India. Our platform provides a secure and engaging environment where players can compete in Rummy and Pool games while testing and refining their skills. We are committed to delivering a seamless gaming experience with cutting-edge technology, ensuring fairness, transparency, and the highest level of security.
             </p>
             <h4 className="mt-5">
               Our Vision
@@ -35,7 +35,7 @@ export default function About() {
             </p>
             <h4 className="mt-5">What We Offer
             </h4>
-            <p>We provide a variety of skill-based games that cater to both beginners and professionals. Our gaming platform is designed to deliver an exciting experience while ensuring a high level of competition. We have an extensive game portfolio that includes different versions of Rummy, Poker, and Pool games, making our platform a go-to destination for skill-based gaming enthusiasts who seek an immersive and competitive environment.
+            <p>We provide a variety of skill-based games that cater to both beginners and professionals. Our gaming platform is designed to deliver an exciting experience while ensuring a high level of competition. We have an extensive game portfolio that includes different versions of Rummy and Pool games, making our platform a go-to destination for skill-based gaming enthusiasts who seek an immersive and competitive environment.
             </p>
             <h4 className="mt-5">Rummy Games:</h4>
             <div>
