@@ -193,7 +193,7 @@ export default function Home() {
                             </div>
 
                         </div>
-                        <div className='col-md-12 mb-3'>
+                        {/* <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}
                                 className="w-100 d-flex align-items-center gap-3 shadow-lg p-5 my-4 rounded imgcontent"
@@ -222,7 +222,7 @@ export default function Home() {
                                 </p>
                             </div>
 
-                        </div>
+                        </div> */}
                         <div className='col-md-12 mb-3'>
                             <div
                                 style={{ background: "#ffffff99" }}

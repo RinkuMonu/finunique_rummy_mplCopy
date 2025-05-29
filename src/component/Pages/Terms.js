@@ -56,9 +56,9 @@ export default function Terms() {
                   <li className="list-style-type-decimal">
                     Rummy (Points Rummy, pool Rummy, Deals Rummy)
                   </li>
-                  <li className="list-style-type-decimal">
+                  {/* <li className="list-style-type-decimal">
                     Poker (Texas, PLO 4, PLO 5, PLO 6)
-                  </li>
+                  </li> */}
                   <li className="list-style-type-decimal">Pool</li>
                 </ul>
               </li>
@@ -207,7 +207,7 @@ export default function Terms() {
                     responsible for any legal consequences arising from their
                     actions. The company does not engage in gambling or wagering
                     and ensures compliance with judicial rulings that recognize
-                    rummy and poker as games of skill rather than chance. Any
+                    rummy  games of skill rather than chance. Any
                     attempt to circumvent these legal restrictions by using
                     VPNs, proxy servers, or false information will result in
                     account suspension and potential legal action.
@@ -234,7 +234,7 @@ export default function Terms() {
                 >
                   <div class="accordion-body">
                     finuniquerummy offers a variety of skill-based games,
-                    including different rummy and poker variants, designed to
+                    including different rummy , designed to
                     provide a competitive and engaging experience for users. The
                     platform hosts multiple game formats, such as cash games,
                     tournaments, and practice modes, allowing users to improve
@@ -1340,7 +1340,7 @@ export default function Terms() {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    All games on finuniquerummy, including Rummy and Poker
+                    All games on finuniquerummy, including Rummy 
                     variants, operate under strict rules and regulations to
                     ensure fairness. Users must familiarize themselves with game
                     mechanics, scoring systems, and penalty structures before

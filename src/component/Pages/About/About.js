@@ -47,9 +47,9 @@ export default function About() {
                 </li>
               </ul>
             </div>
-            <h4 className="mt-5">Poker Games:
-            </h4>
-            <div>
+            {/* <h4 className="mt-5">Poker Games:
+            </h4> */}
+            {/* <div>
               <ul className="about-list mt-3 mb-3 ps-4">
                 <li><b>Texas Hold’em – </b> The most popular poker variant with strategic betting rounds. Players receive two hole cards and must make the best five-card hand using community cards. Texas Hold’em requires deep knowledge of hand rankings, betting strategies, and psychological gameplay. With multiple betting rounds, this game challenges players to read their opponents and make well-calculated decisions to maximize their chances of winning.
                 </li>
@@ -64,7 +64,7 @@ export default function About() {
                   <b>PLO 6 (Pot Limit Omaha 6) – </b> A variant with six hole cards, adding more excitement and skill to the game. PLO 6 provides an action-packed poker experience where players must navigate an increased number of potential hand combinations. The game tests a player’s ability to assess risk, make strategic bets, and outplay their opponents in high-stakes situations. With its heightened strategic complexity, PLO 6 is a thrilling choice for poker enthusiasts.
                 </li>
               </ul>
-            </div>
+            </div> */}
             <h4 className="mt-5">Pool Games:
 
             </h4>
