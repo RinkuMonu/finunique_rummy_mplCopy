@@ -216,7 +216,7 @@ export default function Home() {
                                     </strong>
                                     <span>
                                         {" "}
-                                        Poker is an immortal game that has been enrapturing players for a long time. It's an ideal mix of expertise, technique, and a touch of karma. Whether you're an easygoing player or an old pro, poker offers an elating encounter that can prompt huge rewards. Assuming you're somebody who partakes in the adventure of poker, FinYoonik is the spot to be. Offering genuine cash poker games like Texas Hold'em, Omaha, and Poker Puzzle, FinYoonik gives a stage for poker lovers to contend, learn, and win large.
+                                        Poker is an immortal game that has been enrapturing players for a long time. It's an ideal mix of expertise, technique, and a touch of karma. Whether you're an easygoing player or an old pro, poker offers an elating encounter that can prompt huge rewards. Assuming you're somebody who partakes in the adventure of poker, Finunique is the spot to be. Offering genuine cash poker games like Texas Hold'em, Omaha, and Poker Puzzle, Finunique gives a stage for poker lovers to contend, learn, and win large.
 
                                     </span>
                                 </p>

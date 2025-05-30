@@ -48,7 +48,7 @@ export default function Footer() {
                                     <li>
                                         <img src="./images/phone-call.png" width={20} style={{ height: "100%", marginRight: '10px' }} alt="location" className="flaticon-facebook-app-symbol img-fluid" />
 
-                                        <a href="tel:++91 72970 26119">+91 72970 26119</a>
+                                        <a href="tel:++91 01414511098">01414511098</a>
                                     </li>
                                 </ul>
                             </div>
