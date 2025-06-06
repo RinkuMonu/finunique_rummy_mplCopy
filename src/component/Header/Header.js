@@ -159,7 +159,7 @@ export default function Header() {
 
                 {/* Login / Logout Button */}
                 <li className="nav-item ms-lg-3">
-                  {/* {isLoggedIn ? (
+                  {isLoggedIn ? (
                     <div className="d-flex align-items-center gap-2">
                       <span>Welcome, {name}</span>
                       <button onClick={handleLogout} className="btn btn-danger">
@@ -175,9 +175,9 @@ export default function Header() {
                         Register
                       </Link>
                     </div>
-                  )} */}
+                  )}
                   {/* <div className="d-flex justify-content-center align-items-center vh-20 bg-light mt-3"> */}
-                  <a href="https://indusapp.store/mwvbplnq" download>
+                  {/* <a href="https://indusapp.store/mwvbplnq" download>
                     <button
                       className="btn btn-primary"
                       style={{
@@ -190,7 +190,7 @@ export default function Header() {
                     >
                       Download NOW
                     </button>
-                  </a>
+                  </a> */}
                   {/* </div> */}
                 </li>
               </ul>

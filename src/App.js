@@ -26,6 +26,8 @@ import Pointsrummy from './component/Pages/all games/RummyGames/Pointsrummy';
 import PoolRummy from './component/Pages/all games/RummyGames/PoolRummy';
 import DealsRummy from './component/Pages/all games/RummyGames/DealsRummy';
 import Gamerules from './component/Pages/Gamerules/Gamerules';
+import PaymentStatus from './component/Pages/PaymentStatus';
+import Checkoutsecond from './component/Pages/Checkoutsecond';
 
 function App() {
   const[logincheck,setlogin]=useState(false)
@@ -116,6 +118,13 @@ function App() {
         {
           path: "/gamerules",
           element: <Gamerules />,
+        },
+          {
+          path: "/paymentstatus",
+          element: <PaymentStatus />,
+        },  {
+          path: "/checkout",
+          element: <Checkoutsecond />,
         },
        
       ],
