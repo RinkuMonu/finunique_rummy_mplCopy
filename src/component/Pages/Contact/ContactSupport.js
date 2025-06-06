@@ -54,7 +54,7 @@ const ContactSupport = () => {
             <p className="text-muted">
               PLOT NO 97, DAKSHINPURI-I, SHRIKISHANPURA, SANGANER, Jagatpura, Jaipur, Rajasthan
               <br />
-              <strong className="text-dark">+91 72970 26119</strong>
+              <strong className="text-dark">01414511098</strong>
             </p>
 
             <h5 className="fw-bold">Mail</h5>
