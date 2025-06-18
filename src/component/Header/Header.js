@@ -158,7 +158,7 @@ export default function Header() {
                 </li>
 
                 {/* Login / Logout Button */}
-                <li className="nav-item ms-lg-3">
+                {/* <li className="nav-item ms-lg-3">
                   {isLoggedIn ? (
                     <div className="d-flex align-items-center gap-2">
                       <span>Welcome, {name}</span>
@@ -175,7 +175,7 @@ export default function Header() {
                         Register
                       </Link>
                     </div>
-                  )}
+                  )} */}
                   {/* <div className="d-flex justify-content-center align-items-center vh-20 bg-light mt-3"> */}
                   {/* <a href="https://indusapp.store/mwvbplnq" download>
                     <button
@@ -192,7 +192,7 @@ export default function Header() {
                     </button>
                   </a> */}
                   {/* </div> */}
-                </li>
+                {/* </li> */}
               </ul>
             </div>
           </nav>
